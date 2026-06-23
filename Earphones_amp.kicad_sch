@@ -4360,12 +4360,6 @@
 		(uuid "3b5dc087-59c7-49fb-82d8-47e59e523dd6")
 	)
 	(junction
-		(at 140.97 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c27520f-a459-434e-8c1a-80ab3a4ba794")
-	)
-	(junction
 		(at 209.55 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4406,12 +4400,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed3c43e-8cea-4146-beb2-6642f0964dd7")
-	)
-	(junction
-		(at 135.89 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65a5d9b4-a3f5-405f-a152-68891780a71f")
 	)
 	(junction
 		(at 146.05 53.34)
@@ -4456,6 +4444,12 @@
 		(uuid "774f18e7-b7df-49cf-bd98-80bf7bd28380")
 	)
 	(junction
+		(at 135.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7caf5062-be66-4853-9e17-2a6d725f629d")
+	)
+	(junction
 		(at -17.78 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4484,12 +4478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89d1cc83-8861-4acc-ae1c-3581a719cb44")
-	)
-	(junction
-		(at 161.29 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ba30329-180d-4f9a-b505-90b0107f28ae")
 	)
 	(junction
 		(at -17.78 107.95)
@@ -4630,10 +4618,22 @@
 		(uuid "e7bf5e26-7f37-4d95-ab2e-72ed65ce2581")
 	)
 	(junction
+		(at 161.29 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecf80e9a-973d-4a59-8c6b-f89ae429a180")
+	)
+	(junction
 		(at 80.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eefc75ca-711c-4651-9a9e-3ed625528091")
+	)
+	(junction
+		(at 140.97 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92631a8-490d-4510-9ceb-9fa18a2cefa9")
 	)
 	(junction
 		(at 173.99 91.44)
@@ -6593,6 +6593,16 @@
 		)
 		(uuid "0c2a8e74-febc-4299-a96f-d206f731f4ac")
 	)
+	(label "out_R"
+		(at 261.62 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1001a789-384a-4480-a590-080d3028d7f9")
+	)
 	(label "V_{+}"
 		(at -6.35 87.63 0)
 		(effects
@@ -6603,7 +6613,7 @@
 		)
 		(uuid "23529312-98a0-44ad-b301-33f9b4e9fbf1")
 	)
-	(label "outR"
+	(label "out_R"
 		(at 242.57 119.38 0)
 		(effects
 			(font
@@ -6624,7 +6634,7 @@
 		(uuid "548d0610-8fa4-4a45-9afe-89f25ce9af6a")
 	)
 	(label "sigIN_L"
-		(at 38.1 91.44 0)
+		(at -44.45 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6644,7 +6654,7 @@
 		(uuid "611dda7d-6ed3-4aed-a443-67c0a8562f19")
 	)
 	(label "sigIN_R"
-		(at 38.1 93.98 0)
+		(at -44.45 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6652,16 +6662,6 @@
 			(justify left bottom)
 		)
 		(uuid "6713f20b-23ec-4390-827e-39d34d7d432d")
-	)
-	(label "outR"
-		(at 261.62 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e92fb48-0a1f-4456-8ebf-896c5d622e7b")
 	)
 	(label "V_{+}"
 		(at 76.2 180.34 0)
@@ -6673,16 +6673,6 @@
 		)
 		(uuid "8152422b-a839-429f-bf4a-9111a953d079")
 	)
-	(label "outL"
-		(at 261.62 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8dd20b4c-a084-47f7-943b-d322eb8be3f5")
-	)
 	(label "V_{+}"
 		(at 41.91 180.34 0)
 		(effects
@@ -6693,7 +6683,7 @@
 		)
 		(uuid "93424352-2f02-40ea-8a31-c6fa53662a73")
 	)
-	(label "sigIN_R"
+	(label "sigIN_L"
 		(at 49.53 58.42 180)
 		(effects
 			(font
@@ -6703,7 +6693,7 @@
 		)
 		(uuid "94849d80-0e57-4ead-ba8e-1fb9885c205f")
 	)
-	(label "outR"
+	(label "out_L"
 		(at 242.57 63.5 0)
 		(effects
 			(font
@@ -6733,6 +6723,16 @@
 		)
 		(uuid "a4387247-60c3-49b2-8a71-c7c3ae64f604")
 	)
+	(label "out_L"
+		(at 261.62 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba383dfc-7c50-4f7b-b4ab-64a77189d87c")
+	)
 	(label "V_{-}"
 		(at 76.2 195.58 0)
 		(effects
@@ -6753,7 +6753,7 @@
 		)
 		(uuid "beeb5651-1843-4abf-bd85-b65f5070ddbb")
 	)
-	(label "sigIN_L"
+	(label "sigIN_R"
 		(at 49.53 114.3 180)
 		(effects
 			(font
@@ -8236,7 +8236,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 138.43 85.09 270)
+		(at 153.67 57.15 0)
+		(mirror x)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8246,29 +8247,27 @@
 		(dnp no)
 		(uuid "1c266f98-43f9-43a4-b3b0-5cea8aaa567d")
 		(property "Reference" "U3"
-			(at 132.08 83.82 90)
+			(at 153.67 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "TL074"
-			(at 132.08 86.36 90)
+			(at 153.67 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8279,7 +8278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8290,7 +8289,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8301,7 +8300,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8312,7 +8311,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,7 +8322,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +8333,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 138.43 85.09 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,8 +8918,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 153.67 57.15 0)
-		(mirror x)
+		(at 138.43 85.09 270)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8930,27 +8928,29 @@
 		(dnp no)
 		(uuid "2dd49f1a-a308-4118-b147-8f2b196c24a1")
 		(property "Reference" "U3"
-			(at 153.67 66.04 0)
+			(at 132.08 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL074"
-			(at 153.67 63.5 0)
+			(at 132.08 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8961,7 +8961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,7 +8972,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +8983,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8994,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9005,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9016,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 153.67 57.15 0)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14493,7 +14493,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 33.02 93.98 0)
+		(at -49.53 147.32 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14505,7 +14505,7 @@
 		(fields_autoplaced yes)
 		(uuid "cba1d2ca-19ea-4884-9993-5017bd243e59")
 		(property "Reference" "J1"
-			(at 25.4 92.0749 0)
+			(at -57.15 145.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14516,7 +14516,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 25.4 94.6149 0)
+			(at -57.15 147.9549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14527,7 +14527,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:MJ352W"
-			(at 33.02 93.98 0)
+			(at -49.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14538,7 +14538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 93.98 0)
+			(at -49.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,7 +14549,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 33.02 93.98 0)
+			(at -49.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16749,7 +16749,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 38.1 96.52 0)
+		(at -44.45 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16760,7 +16760,7 @@
 		(dnp no)
 		(uuid "fa15efde-532c-43f1-8f31-87135585d870")
 		(property "Reference" "#PWR03"
-			(at 38.1 102.87 0)
+			(at -44.45 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16771,7 +16771,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 38.1 100.33 0)
+			(at -44.45 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16781,7 +16781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 96.52 0)
+			(at -44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16792,7 +16792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 96.52 0)
+			(at -44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16803,7 +16803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 38.1 96.52 0)
+			(at -44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

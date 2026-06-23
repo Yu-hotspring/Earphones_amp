@@ -90,13 +90,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0099fd88-8d59-4735-89f9-d59a2a0aeb1f")
-		(at 184.159863 69.585539 -90)
+		(at 183.926926 56.378704 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R15"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "6210e96f-79b2-4909-9d39-5396f81e7143")
+			(uuid "8e159148-8bb4-4b29-ba9f-ee7af7af7c28")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "190d251b-8d21-466c-aa8a-55bb320a65e5")
+			(uuid "f6837810-8463-4791-877a-567f915a442a")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01a31896-5a0b-4487-a312-4577fb2c6cc8")
+			(uuid "1676e79a-460c-4edc-8e8f-3bb040f490e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d937c29-9fbd-4c50-bd9d-aeef63d83f53")
+			(uuid "43beef5e-a6c9-404e-bb40-268b6435c165")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,16 +162,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.62 0.92)
-			(end 4.46 0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cd2fdf01-494c-4b3b-a507-95f6b3b9aa5a")
-		)
-		(fp_line
 			(start 0.62 -0.92)
 			(end 4.46 -0.92)
 			(stroke
@@ -180,6 +170,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c61610df-2b77-4682-a244-70ec322a4294")
+		)
+		(fp_line
+			(start 0.62 0.92)
+			(end 4.46 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd2fdf01-494c-4b3b-a507-95f6b3b9aa5a")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -193,16 +193,6 @@
 			(uuid "9018cd78-04d8-4a93-8a98-49a875edd0f3")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.74 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cc17a061-0b3b-4f5c-bd13-2c8acf115a1f")
-		)
-		(fp_line
 			(start 5.08 0)
 			(end 4.34 0)
 			(stroke
@@ -211,6 +201,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "0856e826-76bb-4916-b40b-a389a24399e1")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.74 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cc17a061-0b3b-4f5c-bd13-2c8acf115a1f")
 		)
 		(fp_rect
 			(start 0.74 -0.8)
@@ -235,7 +235,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -245,12 +245,12 @@
 			(uuid "d5cf6116-0384-4373-bd2f-c82cd879cd8c")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0 270)
+			(at 5.08 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3C--)")
+			(net "Net-(U3D--)")
 			(pintype "passive")
 			(uuid "503ccef0-9899-407c-85e9-4ed43c1afed1")
 		)
@@ -270,13 +270,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "04af872c-b5c4-4c9f-972d-f65f48e95e50")
-		(at 218.694882 89.628815 90)
+		(at 182.911488 82.219781 180)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q8"
-			(at 2.54 -3.56 90)
+			(at 2.54 -3.56 0)
 			(layer "F.SilkS")
-			(uuid "d7b2559e-88e3-4919-9428-7458beabec79")
+			(uuid "5638c531-45d5-4cdb-85f5-02ef90395aa6")
 			(effects
 				(font
 					(size 1 1)
@@ -285,9 +285,9 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 2.54 2.79 90)
+			(at 2.54 2.79 0)
 			(layer "F.Fab")
-			(uuid "3de0919a-f415-472f-8892-c1dcd7c26e4d")
+			(uuid "39014c71-9857-4159-aeea-ae16b4ce68a7")
 			(effects
 				(font
 					(size 1 1)
@@ -296,11 +296,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "732231fd-90be-4bde-b52e-2b55d71085c6")
+			(uuid "81c6ed6d-63d0-4e4f-b9f3-dd27dbc54ed8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,11 +309,11 @@
 			)
 		)
 		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "636520ee-2e73-4f80-aeab-2f8969a19a96")
+			(uuid "30c9bcb5-d3a7-40c8-a638-f40981d51d4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,28 +343,6 @@
 			(uuid "87c4a0fd-2415-4d74-b853-2b0113ab1153")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "975ead48-4f3c-464d-82af-1a9b5b2cc561")
-		)
-		(fp_arc
-			(start 0.1836 -1.098807)
-			(mid 1.143021 -2.192817)
-			(end 2.54 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "574e0819-281d-43a6-bb7d-de36be1b35ca")
-		)
-		(fp_arc
 			(start 4.842383 1.112264)
 			(mid 4.666594 1.419753)
 			(end 4.45 1.7)
@@ -374,6 +352,17 @@
 			)
 			(layer "F.SilkS")
 			(uuid "14b684c2-01f4-469f-89b3-967d03bb9c60")
+		)
+		(fp_arc
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "975ead48-4f3c-464d-82af-1a9b5b2cc561")
 		)
 		(fp_arc
 			(start 0.6 1.7)
@@ -386,25 +375,16 @@
 			(layer "F.SilkS")
 			(uuid "02a0bffd-7b74-44e0-a1ea-b4cb8f9b2ac7")
 		)
-		(fp_line
-			(start -1 -2.75)
-			(end 6.1 -2.75)
+		(fp_arc
+			(start 0.1836 -1.098807)
+			(mid 1.143021 -2.192817)
+			(end 2.54 -2.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "bafbde85-93a9-4dd3-b070-bd534d4709f7")
-		)
-		(fp_line
-			(start -1 -2.75)
-			(end -1 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b2301c24-b328-4027-bdcd-5ec223d6ddcc")
+			(layer "F.SilkS")
+			(uuid "574e0819-281d-43a6-bb7d-de36be1b35ca")
 		)
 		(fp_line
 			(start 6.1 1.85)
@@ -425,6 +405,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "d3402ed2-6e47-4027-8f66-2d5ad6e859d8")
+		)
+		(fp_line
+			(start -1 -2.75)
+			(end 6.1 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bafbde85-93a9-4dd3-b070-bd534d4709f7")
+		)
+		(fp_line
+			(start -1 -2.75)
+			(end -1 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b2301c24-b328-4027-bdcd-5ec223d6ddcc")
 		)
 		(fp_line
 			(start 0.65 1.6)
@@ -459,7 +459,7 @@
 			(uuid "f233f347-96c1-4b26-832d-47d5875c9650")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 90)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "79e3c765-131c-4371-8431-3bea8aa27b04")
 			(effects
@@ -470,7 +470,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -481,7 +481,7 @@
 			(uuid "ef09c5f0-a34f-4d67-bbde-54defa0eca9a")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 90)
+			(at 2.54 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -492,7 +492,7 @@
 			(uuid "056f2520-74be-4a4f-af84-c85109307350")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0 90)
+			(at 5.08 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -518,13 +518,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "04d6f4fd-782b-4c91-a4e4-6d9b127a4277")
-		(at 164.41 108.62 -90)
+		(at 164.359584 113.604631 -90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C10"
 			(at 2.5 -2.5 90)
 			(layer "F.SilkS")
-			(uuid "c192328e-214e-415e-a6e3-573c25a34bf5")
+			(uuid "ea0b19a7-c1b9-4b0a-bfe6-4527267e3e9e")
 			(effects
 				(font
 					(size 1 1)
@@ -535,7 +535,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.5 90)
 			(layer "F.Fab")
-			(uuid "4c7aff29-7cef-4bdb-9eee-8d6e7b5f2055")
+			(uuid "3e547f81-fa19-4b7a-b34c-5501c5b80216")
 			(effects
 				(font
 					(size 1 1)
@@ -547,7 +547,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc7e6edb-100e-462e-a3b2-f3a1be1d391c")
+			(uuid "6daf038b-4c0c-4b02-8ee8-b4a6d3add51d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,7 +558,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edd4e2f5-c286-4201-8f52-2b65bedb9faf")
+			(uuid "cd1a3430-119a-49ad-b709-c9a53f7a0712")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,13 +698,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "05745231-15f4-423a-ab51-d43223794a0e")
-		(at 211.994882 86.633815 90)
+		(at 172.852106 83.471177 90)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q4"
 			(at 2.54 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "a53d5582-c82c-432b-b6c1-417d7148bd05")
+			(uuid "251ac679-7fe8-44f9-b53f-669f6735e8c2")
 			(effects
 				(font
 					(size 1 1)
@@ -715,7 +715,7 @@
 		(property "Value" "NPN"
 			(at 2.54 2.79 90)
 			(layer "F.Fab")
-			(uuid "b9afdc29-95ba-4794-bc1c-319194a71e7b")
+			(uuid "7b2307f2-336f-4a7f-b563-d1d988011306")
 			(effects
 				(font
 					(size 1 1)
@@ -728,7 +728,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75853fd8-760f-499c-85ef-67cac86acb11")
+			(uuid "5b9cb45d-20c2-4ba5-a92f-e4d1c1d71ecd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,7 +741,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34712a02-2792-4573-83da-9a762e452494")
+			(uuid "d798483b-75cc-4c5f-82f5-5ae67d5e3c5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,13 +946,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "066969bc-e4d6-4ab4-ab2f-b1cdb4b4032a")
-		(at 162.71 98.82 90)
+		(at 162.659584 103.804631 90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*6.0mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 6.0mm Capacitor R82")
 		(property "Reference" "C6"
 			(at 2.5 -4.25 90)
 			(layer "F.SilkS")
-			(uuid "2d5a3f75-abd6-481f-821e-c0ef291a2e00")
+			(uuid "1ccd55e9-a8d7-4f99-a3d5-09358a532354")
 			(effects
 				(font
 					(size 1 1)
@@ -963,7 +963,7 @@
 		(property "Value" "1u"
 			(at 2.5 4.25 90)
 			(layer "F.Fab")
-			(uuid "fbed6230-8099-4ca1-99ca-a93f825a15dd")
+			(uuid "c6151ec6-2988-4576-bede-49b756ee99d4")
 			(effects
 				(font
 					(size 1 1)
@@ -975,7 +975,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "335c2850-0ea7-463b-a8d8-5b9ceed6340e")
+			(uuid "ba7bd69d-1155-4f63-afac-7b6dfa895efa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +986,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af02369e-6b6c-4795-9429-808193e1a124")
+			(uuid "7ba7c4f2-025f-4bfc-9360-a56665b09bc6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,13 +1126,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "08799027-f052-4d94-b680-15363dd0911f")
-		(at 169.11 98.86 90)
+		(at 169.059584 103.844631 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R10"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "c0d7428e-b670-4bd9-a7f5-d26dcaa59b17")
+			(uuid "54db6776-4518-4824-81df-cd2c992ceae0")
 			(effects
 				(font
 					(size 1 1)
@@ -1143,7 +1143,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "a6c54935-6740-4175-9e44-7ba796eac314")
+			(uuid "080a19f1-cc15-4e08-96b0-37c356f0d9c3")
 			(effects
 				(font
 					(size 1 1)
@@ -1155,7 +1155,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9e96b22-1085-4631-b6c4-c0d56bea0344")
+			(uuid "2c8e0dae-e956-4cb2-b8ae-45cb09145cca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1166,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25f5aa5f-44b5-4034-8efa-c5647f8abba8")
+			(uuid "014c15b1-9b11-403b-998e-836149c116ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "0b0c7f1e-9eda-4163-a938-e59c411dc132")
-		(at 187.359863 66.725539 180)
+		(at 187.123081 59.21764 180)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C11"
@@ -1711,13 +1711,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "10faf86c-7ef1-48c5-8e13-ce16c22b913d")
-		(at 167.11 59.865 90)
+		(at 166.939352 56.378704 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R7"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "7c0e5db2-57c8-4d13-9f62-2608ea66e6d1")
+			(uuid "54f0a43f-08a0-40df-bcb9-f3617e57b413")
 			(effects
 				(font
 					(size 1 1)
@@ -1728,7 +1728,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "ccab8cef-933a-4836-b2b5-1949e83aa21a")
+			(uuid "27f43bcb-c83b-4d22-8cb6-7ec463bffdb1")
 			(effects
 				(font
 					(size 1 1)
@@ -1740,7 +1740,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2739b01-0e25-448e-8ee6-226d804a0140")
+			(uuid "7a118af5-aa5b-4257-95b1-bad9973c6f61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f7722a8-369c-4a87-9185-d5e4d0d9fa65")
+			(uuid "07639588-3008-4bb3-a100-661e1eadcc97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,14 +2176,15 @@
 		)
 	)
 	(footprint "MyLibrary:SL4515G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1f144bf9-332b-45c2-83c5-8d644ab7fa15")
 		(at 152.84 55 -90)
 		(property "Reference" "RV3"
-			(at 0 -0.5 -90)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0e382f8e-082e-42db-ac81-14f4a33ab309")
+			(uuid "4da29750-aac7-458b-b6f1-1936cd04c6f8")
 			(effects
 				(font
 					(size 1 1)
@@ -2192,10 +2193,10 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1 -90)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "18166597-5f9e-47e3-80e9-d4129202cbd5")
+			(uuid "a26d9425-191e-418f-a59a-77195246f199")
 			(effects
 				(font
 					(size 1 1)
@@ -2204,11 +2205,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7cfb649f-f21b-4587-9a5c-29ab9163343d")
+			(uuid "308853ee-7878-4412-8f85-eec70512293c")
 			(effects
 				(font
 					(size 1 1)
@@ -2217,11 +2218,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "787d379d-87ca-4ae8-a9ce-90ae94c56837")
+			(uuid "fd4d85a6-505f-4e53-9512-bc436382e07a")
 			(effects
 				(font
 					(size 1 1)
@@ -2477,7 +2478,7 @@
 			(uuid "6d1fb023-f609-4473-a29f-f31bb648febb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 -90)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ca42f0d7-45c6-4e67-a42c-609544df1695")
@@ -2505,7 +2506,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D--)")
+			(net "Net-(U3C--)")
 			(pintype "passive")
 			(uuid "4516385c-2a00-4c3a-aa39-3cc0b10e82d3")
 		)
@@ -2525,7 +2526,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D-+)")
+			(net "Net-(U3C-+)")
 			(pintype "passive")
 			(uuid "a4a6f6f2-f1ab-4be0-b316-22f08f659a25")
 		)
@@ -5538,13 +5539,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "25b25f1d-e053-4989-94ae-4fd202ef8cea")
-		(at 279.055 150.045)
+		(at 187.6 75.4 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R35"
-			(at 2.54 -1.92 0)
+			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "297d6461-5fe3-4d6f-9661-69ee20d83e64")
+			(uuid "4261935c-448d-4d10-b886-58d3bfc5c30e")
 			(effects
 				(font
 					(size 1 1)
@@ -5553,9 +5554,9 @@
 			)
 		)
 		(property "Value" "22"
-			(at 2.54 1.92 0)
+			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "3260ef89-e315-44a9-b544-652e2867d157")
+			(uuid "ec980f64-aad6-4ca7-a6fd-0ebd8c7fe822")
 			(effects
 				(font
 					(size 1 1)
@@ -5564,10 +5565,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08750f72-4b36-4578-932a-03186598ef30")
+			(uuid "56b0c526-d75a-4c11-bfc2-839275a5ac99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,10 +5576,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6287b91d-fd4d-4d40-89a7-71f7e3584f1d")
+			(uuid "6811f39b-696b-42ba-851e-9e941a83f756")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5587,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "201ea7ed-4c78-47da-9050-5981842f1a71")
@@ -5610,16 +5611,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.62 -0.92)
-			(end 4.46 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2fe74ad9-21f5-47a8-af22-bb4731371e97")
-		)
-		(fp_line
 			(start 0.62 0.92)
 			(end 4.46 0.92)
 			(stroke
@@ -5628,6 +5619,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e18fa9eb-f404-4b93-b4dd-38c170d2c9cd")
+		)
+		(fp_line
+			(start 0.62 -0.92)
+			(end 4.46 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2fe74ad9-21f5-47a8-af22-bb4731371e97")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -5672,7 +5673,7 @@
 			(uuid "c5871e93-6d58-4cfc-9cf9-d1bdba83ff47")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 0)
+			(at 2.54 0 90)
 			(layer "F.Fab")
 			(uuid "8b252611-4cbd-48ea-abdb-b7790ca4dae3")
 			(effects
@@ -5683,7 +5684,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -5693,12 +5694,12 @@
 			(uuid "c473ecab-6c90-4a46-926f-df30a301ec84")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/outR")
+			(net "/out_L")
 			(pintype "passive")
 			(uuid "f9d964be-3e84-4df6-93b9-f34750854d52")
 		)
@@ -5718,13 +5719,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "316d20b5-1f0d-400f-830d-ff6de62c546f")
-		(at 216.994882 79.025)
+		(at 177.852106 75.862362)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R31"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "e6a8ce46-87e9-4b2b-b46e-ae685eef8c6e")
+			(uuid "80379607-d054-4a37-b4dc-8dc2abc9722f")
 			(effects
 				(font
 					(size 1 1)
@@ -5735,7 +5736,7 @@
 		(property "Value" "2.2"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
-			(uuid "6a627546-4c20-4bb8-a132-e54b45d4dd69")
+			(uuid "1a40dbfc-dfac-4ca0-93cf-3a2bc7501c88")
 			(effects
 				(font
 					(size 1 1)
@@ -5747,7 +5748,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ce7663d-b6ad-4f07-83af-9cd97760ea26")
+			(uuid "d52fb32d-6bba-43c5-9699-d11439b9aee2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5759,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36da971f-b7f2-435c-9829-c7524b9d517d")
+			(uuid "79b6d9ae-f3f5-491b-8407-bc1fe099204b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,13 +5939,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "31a3d841-beba-4400-8363-a7a4f4352d6d")
-		(at 186.659863 108.620539 -90)
+		(at 186.609447 113.60517 -90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C14"
 			(at 2.5 -2.5 90)
 			(layer "F.SilkS")
-			(uuid "a3d0eaa4-6150-4ba8-9c9d-7bb63a48c13d")
+			(uuid "d4165951-d85e-45ae-b1e2-2c71d08253e5")
 			(effects
 				(font
 					(size 1 1)
@@ -5955,7 +5956,7 @@
 		(property "Value" "0.01u"
 			(at 2.5 2.5 90)
 			(layer "F.Fab")
-			(uuid "6ca07124-4dcc-4f6a-8022-8ec85bf8331a")
+			(uuid "27140de4-5449-48f5-87a4-e14465ee10c0")
 			(effects
 				(font
 					(size 1 1)
@@ -5967,7 +5968,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b8c62d8-e5df-4e4c-acbc-248891efe9a4")
+			(uuid "3b432487-ca82-4162-be00-57e901d9491b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5979,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0482b28-ecf3-43a6-bf85-f648e8e3690d")
+			(uuid "54ec2ba4-ec37-4241-a477-52c64c417331")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,13 +6119,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3552f975-b6bc-4180-bba5-e2c693cfd883")
-		(at 182.059863 69.585539 -90)
+		(at 181.815391 56.378704 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R17"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "f46f6f4a-9c63-43bc-a74a-30ff1c448b24")
+			(uuid "e415eb65-2e93-4af9-9f79-2a92506db21d")
 			(effects
 				(font
 					(size 1 1)
@@ -6135,7 +6136,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "102eede4-b8fe-4195-8940-e1ab80a82ae9")
+			(uuid "f5ab294e-68fb-49cd-b939-f2319cdc7b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -6147,7 +6148,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1930b6f4-62c7-43ad-a15a-184e68ec4b69")
+			(uuid "41e765eb-f4d0-4b21-aa82-e361f9623f76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6159,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca03235e-e2a1-4bf3-8d01-a6e995731687")
+			(uuid "0ac21172-a29b-44a6-a3ce-e2f370dec024")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,16 +6191,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.62 0.92)
-			(end 4.46 0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "64af4ae2-9292-4490-9824-9eab85dd3199")
-		)
-		(fp_line
 			(start 0.62 -0.92)
 			(end 4.46 -0.92)
 			(stroke
@@ -6208,6 +6199,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "cc90a7fd-b44e-47e6-8e50-cab5740a8577")
+		)
+		(fp_line
+			(start 0.62 0.92)
+			(end 4.46 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "64af4ae2-9292-4490-9824-9eab85dd3199")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -6221,16 +6222,6 @@
 			(uuid "9ab66b0b-2259-4741-9282-1e87be7de737")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.74 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "82fd9dc5-4415-4fe6-8b55-602d34f8c283")
-		)
-		(fp_line
 			(start 5.08 0)
 			(end 4.34 0)
 			(stroke
@@ -6239,6 +6230,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "d55e786a-59e6-472c-9e3e-2749a65ec3e8")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.74 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "82fd9dc5-4415-4fe6-8b55-602d34f8c283")
 		)
 		(fp_rect
 			(start 0.74 -0.8)
@@ -6263,17 +6264,17 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3C-+)")
+			(net "Net-(U3D-+)")
 			(pintype "passive")
 			(uuid "2ba0ff24-bd78-49cb-ac2e-11d7bc32d9c6")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0 270)
+			(at 5.08 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -6298,7 +6299,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3774a21a-018d-48c7-ac06-102fab86b063")
-		(at 187.259863 105.720539 180)
+		(at 187.209447 110.70517 180)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C12"
@@ -6656,14 +6657,15 @@
 		)
 	)
 	(footprint "MyLibrary:SL4515G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3bf83e29-4b2a-4b15-8e73-3919818792a5")
 		(at 139.76 55 -90)
 		(property "Reference" "RV2"
-			(at 0 -0.5 -90)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1e4d8cd6-443e-4041-985c-fc9265c8d686")
+			(uuid "bab11a68-2204-43b2-bcf7-0f8917ab4338")
 			(effects
 				(font
 					(size 1 1)
@@ -6672,10 +6674,10 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1 -90)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1cc9e545-118a-44db-ae6e-7a4a02d99fbf")
+			(uuid "7216c32a-f8c9-42de-a297-5a511cde1e17")
 			(effects
 				(font
 					(size 1 1)
@@ -6684,11 +6686,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56f62c65-a5c0-40a9-8cc4-45aaabbe24d0")
+			(uuid "e6530d56-ca82-4821-b665-055a074d16fb")
 			(effects
 				(font
 					(size 1 1)
@@ -6697,11 +6699,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "feeff4b3-70d9-4b7c-b19e-d2874950833f")
+			(uuid "4e0925f1-3d92-4c16-8144-e286e1d258a6")
 			(effects
 				(font
 					(size 1 1)
@@ -6957,7 +6959,7 @@
 			(uuid "ad1de35f-d396-4d4a-9556-8a81ec0994a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 -90)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "29d99a0c-06f9-40ef-bce6-1818815452cc")
@@ -6985,7 +6987,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D--)")
+			(net "Net-(U3C--)")
 			(pintype "passive")
 			(uuid "a6124580-06cf-41fc-9d4b-1b6fc0d1640e")
 		)
@@ -7005,7 +7007,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D-+)")
+			(net "Net-(U3C-+)")
 			(pintype "passive")
 			(uuid "e8fdd431-2f19-4417-b317-a49005310cfa")
 		)
@@ -7076,7 +7078,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3c648377-0081-4bec-8b8c-422caa25194f")
-		(at 230.12 141.9)
+		(at 164.06 74.3)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R21"
@@ -7254,14 +7256,15 @@
 		)
 	)
 	(footprint "MyLibrary:SL4515G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3cf10532-3680-4b9c-a2cf-1f257eac755d")
 		(at 126.7 55 -90)
 		(property "Reference" "RV1"
-			(at 0 -0.5 -90)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dae924fc-ab09-4f39-a2ac-cde241ca38b9")
+			(uuid "85daffea-15f2-423e-b044-81de287f9e16")
 			(effects
 				(font
 					(size 1 1)
@@ -7270,10 +7273,10 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1 -90)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "55090413-71b5-403f-b3cf-e928cea67c8c")
+			(uuid "27e31cc2-5738-4d8e-a2f4-0ccaf45634ff")
 			(effects
 				(font
 					(size 1 1)
@@ -7282,11 +7285,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10bf542f-045d-4a34-8534-d446b995ac0d")
+			(uuid "5ad0721a-987d-4b29-be19-bfb071d46929")
 			(effects
 				(font
 					(size 1 1)
@@ -7295,11 +7298,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c4f4030-9dd5-481d-8708-89d0ad0d1ceb")
+			(uuid "2b941aad-2079-4349-829b-c60468852ac9")
 			(effects
 				(font
 					(size 1 1)
@@ -7555,7 +7558,7 @@
 			(uuid "85815a58-be43-4dcf-9a0f-fd6207c690da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 -90)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "83780d8a-bbc0-465e-8f92-483619ab1304")
@@ -7583,7 +7586,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D--)")
+			(net "Net-(U3C--)")
 			(pintype "passive")
 			(uuid "16426551-70f1-4ed6-85fa-8a6bbb3a590b")
 		)
@@ -7603,7 +7606,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D-+)")
+			(net "Net-(U3C-+)")
 			(pintype "passive")
 			(uuid "1b664359-34bf-456f-a3a5-819986145975")
 		)
@@ -7674,7 +7677,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "40b83c2b-e9b2-4d15-a6fc-16dc840064cf")
-		(at 230.12 145.05)
+		(at 164.06 93.6)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R22"
@@ -7854,11 +7857,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "412589d8-2e5f-4667-a2db-b45c85898fbe")
-		(at 261.52 172.8)
+		(at 187.6 90.66 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R36"
-			(at 2.54 -1.92 0)
+			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
 			(uuid "c55fba66-0d23-43e8-a3e3-5abca45d63d9")
 			(effects
@@ -7869,7 +7872,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 2.54 1.92 0)
+			(at 2.54 1.92 90)
 			(layer "F.Fab")
 			(uuid "a3eb0d13-0b9b-4fc6-92de-8b76044a1539")
 			(effects
@@ -7880,7 +7883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f2b90b1-cf8a-4eec-b22d-38b8fde0d1dc")
@@ -7891,7 +7894,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2bb6dd4-6cff-4064-88d5-8502dc117efa")
@@ -7902,7 +7905,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7b14ca99-9c89-472e-8860-87d0376fe918")
@@ -7926,16 +7929,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.62 -0.92)
-			(end 4.46 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a414db6e-412b-40b7-8331-1dea86c4fb8e")
-		)
-		(fp_line
 			(start 0.62 0.92)
 			(end 4.46 0.92)
 			(stroke
@@ -7944,6 +7937,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "169b9d27-f9f9-4a85-9740-b252eabafae6")
+		)
+		(fp_line
+			(start 0.62 -0.92)
+			(end 4.46 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a414db6e-412b-40b7-8331-1dea86c4fb8e")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -7988,7 +7991,7 @@
 			(uuid "899a3448-c4da-4ccd-87fc-631c143ec2ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 0)
+			(at 2.54 0 90)
 			(layer "F.Fab")
 			(uuid "80b54b4b-c669-484c-b837-2b83fce18880")
 			(effects
@@ -7999,7 +8002,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -8009,12 +8012,12 @@
 			(uuid "2d18590f-b5a5-42fa-b41f-620b0f0d10a6")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/outR")
+			(net "/out_R")
 			(pintype "passive")
 			(uuid "d0d4d86d-f076-4985-81ff-49950d2240cf")
 		)
@@ -8034,7 +8037,7 @@
 	(footprint "MyLibrary:MJ352W"
 		(layer "F.Cu")
 		(uuid "41c98555-b2d1-4307-a757-c95053147875")
-		(at 232.975 63.375 -90)
+		(at 197.9 68.4 -90)
 		(property "Reference" "J1"
 			(at 0 -3.7 270)
 			(unlocked yes)
@@ -8397,7 +8400,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "47469edf-b4b5-4774-97c0-1b047d7f4a5a")
-		(at 209.825 59.775)
+		(at 190.79 76.19)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U2"
@@ -8684,7 +8687,7 @@
 			)
 		)
 		(point
-			(at 213.635 63.585)
+			(at 194.6 80)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "880ed3b4-8f69-44a5-8a6f-c2282cda59d8")
@@ -8717,7 +8720,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/sigIN_R")
+			(net "/sigIN_L")
 			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "874ce2d6-e58a-454a-8187-28496d59d1b2")
@@ -8739,7 +8742,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/sigIN_L")
+			(net "/sigIN_R")
 			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "d66dd100-ac5e-4241-bd6e-b86d9912d7f1")
@@ -8792,13 +8795,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "494d91dd-3e79-46d4-ad0a-8f94caf2a2f8")
-		(at 211.542214 107.420542 90)
+		(at 172.85 98.685 90)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q6"
 			(at 2.54 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "214a1055-6f3b-486c-b0c7-bf4837606a29")
+			(uuid "27d0ad73-07c5-4f60-bd4d-8930845c974f")
 			(effects
 				(font
 					(size 1 1)
@@ -8809,7 +8812,7 @@
 		(property "Value" "NPN"
 			(at 2.54 2.79 90)
 			(layer "F.Fab")
-			(uuid "03f055a0-1da6-49f4-97a1-804965d3c0a8")
+			(uuid "95c21967-7399-4516-914d-ed1ccccef687")
 			(effects
 				(font
 					(size 1 1)
@@ -8822,7 +8825,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a866e8b-cfac-4df0-89c0-63ecba6d5474")
+			(uuid "5ca7f783-d4d5-4c8d-908e-af1309f43b2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8838,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f2659d6-d548-4900-9350-62424627d441")
+			(uuid "c7b066fe-4432-42fd-af71-084b770af725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,13 +9043,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "4af24bd0-5d4f-4c58-a0d2-11278a8d3e31")
-		(at 171.79 57.085)
+		(at 171.619352 51.932074)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U3"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "23193cb7-78ce-41d4-9c15-e34d72ff6b53")
+			(uuid "29fbc26a-810c-43c7-8aab-325e2e19cabd")
 			(effects
 				(font
 					(size 1 1)
@@ -9057,7 +9060,7 @@
 		(property "Value" "TL074"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "b96e28d2-3a45-4976-a022-fdc4493f3ce2")
+			(uuid "b3223733-0be5-46aa-9d5a-4388068ea83e")
 			(effects
 				(font
 					(size 1 1)
@@ -9069,7 +9072,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "705c4971-04ab-4e1c-9be6-7c82d7ccbc01")
+			(uuid "179c374b-47ed-4631-b3a9-c7247e035e31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9083,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1064a34a-ed5e-48bb-aeef-d9dcc9fdfc60")
+			(uuid "7b63e1a2-15c6-43e9-b5a8-cc173133b06e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9338,7 @@
 			)
 		)
 		(point
-			(at 175.6 64.705)
+			(at 175.429352 59.552074)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "a9028bb2-8412-46e2-9c77-28de533ce19b")
@@ -9422,7 +9425,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3C--)")
+			(net "Net-(R19-Pad2)")
 			(pintype "output")
 			(uuid "4114edc6-3f1b-41d5-b990-d8b303795976")
 		)
@@ -9487,7 +9490,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(R19-Pad2)")
+			(net "Net-(U3D--)")
 			(pintype "output")
 			(uuid "69e9f121-e464-48fa-86f3-bd4441f2a8f4")
 		)
@@ -12449,13 +12452,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "58cb986b-2dd4-4632-9ee5-1d6c9b2332a9")
-		(at 181.959863 108.580539 -90)
+		(at 181.909447 113.56517 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R18"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "8329b6db-c73d-4ebe-9fb5-5d4bb0e25e68")
+			(uuid "697cc512-6cc8-4290-aa9a-64d5b9d80a17")
 			(effects
 				(font
 					(size 1 1)
@@ -12466,7 +12469,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "62fcded0-b6ea-453a-9da8-19dbfd30f244")
+			(uuid "0a42092d-769b-4e3f-a22b-3fab380de811")
 			(effects
 				(font
 					(size 1 1)
@@ -12478,7 +12481,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99fde98b-c74a-4abb-bec9-13efd4a9b4dc")
+			(uuid "f66c0e6b-13d3-4ee6-925f-5dba04ee4b8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12492,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "faa24dd6-52b8-40c0-8278-410c4ac1979c")
+			(uuid "7c154dcb-3950-408b-baaf-4023d1c279b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,13 +12632,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5b8e7aae-a5c9-41a9-8040-79b1794f65d9")
-		(at 184.059863 108.580539 -90)
+		(at 184.009447 113.56517 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R16"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "3008f94a-4d4e-49aa-b177-274a84dbb19b")
+			(uuid "56393bc9-f30c-49e4-bc25-f04d5bd8f873")
 			(effects
 				(font
 					(size 1 1)
@@ -12646,7 +12649,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "7bf613fa-28d5-499f-bf6b-cb3e6f69526f")
+			(uuid "bf046621-de77-463d-a8b7-1887d5084c0a")
 			(effects
 				(font
 					(size 1 1)
@@ -12658,7 +12661,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b7348aa-e7b7-4e93-b03c-9a1dc5caf3cf")
+			(uuid "8b671b6d-424b-4a22-b8d0-a71f047e393a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12672,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2563b168-0dd9-4811-a778-29570422caf4")
+			(uuid "081af3c1-8ac7-4478-8f30-4f1b8c5ee0fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,13 +12812,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "6072e18e-8922-49b7-aeba-8e74edf2ebc0")
-		(at 218.694882 76.525 90)
+		(at 177.792915 72.474124)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q7"
-			(at 2.54 -3.56 90)
+			(at 2.54 -3.56 0)
 			(layer "F.SilkS")
-			(uuid "0387c82d-c27b-4ae0-9827-db74ff1ea86c")
+			(uuid "b036376c-1185-46c7-b35e-f58c29731815")
 			(effects
 				(font
 					(size 1 1)
@@ -12824,9 +12827,9 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 2.54 2.79 90)
+			(at 2.54 2.79 0)
 			(layer "F.Fab")
-			(uuid "758b58bb-fbe3-4970-82cb-6007a0299559")
+			(uuid "ec2d6776-dd0e-4292-965d-61d919fa76e3")
 			(effects
 				(font
 					(size 1 1)
@@ -12835,11 +12838,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4bdba26-d2c9-4723-9938-9633c1f9b567")
+			(uuid "599ca80f-85ec-4fb2-8458-ecbdb8efa9e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12848,11 +12851,11 @@
 			)
 		)
 		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "044b1a97-97f3-4a52-af31-974fc37c33bb")
+			(uuid "45a69088-eb31-4992-b9c8-1af977a93381")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,17 +12885,6 @@
 			(uuid "1feffe9a-67ba-4178-942d-f571d86d6c5f")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "91edded1-7843-46b9-830d-19f55b231bcd")
-		)
-		(fp_arc
 			(start 0.1836 -1.098807)
 			(mid 1.143021 -2.192817)
 			(end 2.54 -2.6)
@@ -12902,17 +12894,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8d57fea0-ef78-46a8-ad8b-866d9a80b8e6")
-		)
-		(fp_arc
-			(start 4.842383 1.112264)
-			(mid 4.666594 1.419753)
-			(end 4.45 1.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a587c8a-c27b-426f-a827-fd5aae34fa26")
 		)
 		(fp_arc
 			(start 0.6 1.7)
@@ -12925,15 +12906,27 @@
 			(layer "F.SilkS")
 			(uuid "a6647a6f-0417-4eb8-9c38-b215bbc1989e")
 		)
-		(fp_line
-			(start -1 -2.75)
-			(end 6.1 -2.75)
+		(fp_arc
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "eb106081-79c0-4866-b564-0ec7a9424f4f")
+			(layer "F.SilkS")
+			(uuid "91edded1-7843-46b9-830d-19f55b231bcd")
+		)
+		(fp_arc
+			(start 4.842383 1.112264)
+			(mid 4.666594 1.419753)
+			(end 4.45 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3a587c8a-c27b-426f-a827-fd5aae34fa26")
 		)
 		(fp_line
 			(start -1 -2.75)
@@ -12946,14 +12939,14 @@
 			(uuid "61b1d9ff-b1f4-4a03-a532-d4d53701dc2b")
 		)
 		(fp_line
-			(start 6.1 1.85)
+			(start -1 -2.75)
 			(end 6.1 -2.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "263d7e9a-a1b2-4912-a40d-c35deee1fdfb")
+			(uuid "eb106081-79c0-4866-b564-0ec7a9424f4f")
 		)
 		(fp_line
 			(start 6.1 1.85)
@@ -12966,6 +12959,16 @@
 			(uuid "5f7187c5-9234-471b-b01a-8cc010194204")
 		)
 		(fp_line
+			(start 6.1 1.85)
+			(end 6.1 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "263d7e9a-a1b2-4912-a40d-c35deee1fdfb")
+		)
+		(fp_line
 			(start 0.65 1.6)
 			(end 4.4 1.6)
 			(stroke
@@ -12974,17 +12977,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "6d9b3d12-e38d-4d1c-b768-0ce98b0f6eba")
-		)
-		(fp_arc
-			(start 2.54 -2.48)
-			(mid 4.787211 -1.049019)
-			(end 4.441103 1.592547)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c702f1fb-df28-423d-b8b9-fffd4875b9ac")
 		)
 		(fp_arc
 			(start 0.647182 1.602385)
@@ -12997,8 +12989,19 @@
 			(layer "F.Fab")
 			(uuid "e9e56106-b398-4dca-9159-2f4d77197139")
 		)
+		(fp_arc
+			(start 2.54 -2.48)
+			(mid 4.787211 -1.049019)
+			(end 4.441103 1.592547)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c702f1fb-df28-423d-b8b9-fffd4875b9ac")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 90)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "7fa62d82-eeba-43c7-8d1f-c5202d3cbea6")
 			(effects
@@ -13009,7 +13012,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -13020,7 +13023,7 @@
 			(uuid "f3edea73-23f2-4beb-a236-2debaa7dfdac")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 90)
+			(at 2.54 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -13031,7 +13034,7 @@
 			(uuid "471f84a4-aa11-49d7-9d17-b0a3000fb567")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0 90)
+			(at 5.08 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -13057,7 +13060,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "635b9a1f-7f21-4164-961d-29ccf6868514")
-		(at 238.15 116.7)
+		(at 164.06 91.5)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R24"
@@ -13217,7 +13220,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/outR")
+			(net "/out_R")
 			(pintype "passive")
 			(uuid "dc744b74-10e4-41c2-a814-7e99ba9e238d")
 		)
@@ -13417,7 +13420,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "69f0ef74-bb9b-4c4a-8a9b-87604b524dd3")
-		(at 238.15 113.55)
+		(at 164.06 76.4)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R23"
@@ -13577,7 +13580,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/outR")
+			(net "/out_L")
 			(pintype "passive")
 			(uuid "423bcd80-e098-402b-9226-3f8311259da5")
 		)
@@ -13597,13 +13600,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6cff2283-043a-49c1-9778-5858b9ae8eac")
-		(at 203.8 135.88 90)
+		(at 181.8 63.46 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R19"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "41435ca9-0d3a-4f2f-8448-731461d0dd73")
+			(uuid "4a51a573-a00c-4021-b036-772121c07e17")
 			(effects
 				(font
 					(size 1 1)
@@ -13614,7 +13617,7 @@
 		(property "Value" "10k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "cf42a4c1-0337-4da4-a2e8-f5b4a7c6714b")
+			(uuid "0de1031a-2866-4bcb-810d-aa04cf410b52")
 			(effects
 				(font
 					(size 1 1)
@@ -13626,7 +13629,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e9bc2f2-b795-412c-a371-3abe0593c1de")
+			(uuid "c285e4ed-ef0e-4030-b612-32f6551b56bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +13640,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b415c329-a00c-4531-b181-ada7f9e722df")
+			(uuid "d6b706de-f9bf-4f47-8b3f-998473e4cdaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,16 +13672,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.62 -0.92)
-			(end 4.46 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7c27e90e-ea55-4222-8fec-3524efcb23cb")
-		)
-		(fp_line
 			(start 0.62 0.92)
 			(end 4.46 0.92)
 			(stroke
@@ -13687,6 +13680,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "33c23eb8-96f6-4dc6-91d6-d9f65409b588")
+		)
+		(fp_line
+			(start 0.62 -0.92)
+			(end 4.46 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c27e90e-ea55-4222-8fec-3524efcb23cb")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -13700,16 +13703,6 @@
 			(uuid "0d6d1953-9b6d-4df7-8a1c-d5c8cca7023f")
 		)
 		(fp_line
-			(start 5.08 0)
-			(end 4.34 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0ae76662-a02b-4180-a1f6-01dcc959dc17")
-		)
-		(fp_line
 			(start 0 0)
 			(end 0.74 0)
 			(stroke
@@ -13718,6 +13711,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "b8e06065-11ff-4d02-a2a8-c2cd0dbbc7f2")
+		)
+		(fp_line
+			(start 5.08 0)
+			(end 4.34 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ae76662-a02b-4180-a1f6-01dcc959dc17")
 		)
 		(fp_rect
 			(start 0.74 -0.8)
@@ -13742,17 +13745,17 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D--)")
+			(net "Net-(U3C--)")
 			(pintype "passive")
 			(uuid "917480ab-eb44-4cb4-a414-8062cc8c97bb")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0 90)
+			(at 5.08 0 270)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -13777,13 +13780,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "76f7dc2d-4008-4581-8e45-a6d67781af8f")
-		(at 169.21 59.865 90)
+		(at 169.039352 56.378704 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R9"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "7e7c84a0-01e3-4029-8ac3-e8ba743283d7")
+			(uuid "5ed236fd-4bf7-4b83-ba58-fb7be73305f2")
 			(effects
 				(font
 					(size 1 1)
@@ -13794,7 +13797,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "781af34c-0d4b-4104-9ebf-4b748728dcf1")
+			(uuid "354ff1c1-31b1-4caa-ac99-389525a5b3e3")
 			(effects
 				(font
 					(size 1 1)
@@ -13806,7 +13809,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26b3e013-70cd-47eb-b0f7-33d6287ee240")
+			(uuid "530089b0-2012-4ff0-b612-cae640a3b731")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +13820,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91139b23-a812-49f2-85f8-079f7f5f535d")
+			(uuid "42dbee17-ff05-49bc-b040-0794f49ed9c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,13 +14140,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7a765327-64cb-46ed-989d-c3bac6dba406")
-		(at 216.542214 99.811727)
+		(at 177.85 91.076185)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R33"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "54a366b6-d364-4a71-ade9-1ff1cc0df086")
+			(uuid "c02acaad-82d6-49a8-b943-788fc6afa043")
 			(effects
 				(font
 					(size 1 1)
@@ -14154,7 +14157,7 @@
 		(property "Value" "2.2"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
-			(uuid "9ee70bc9-e074-403c-956b-3ca9e6f9c2a3")
+			(uuid "dbfecc89-03f2-43ca-8c23-cee891bd93cc")
 			(effects
 				(font
 					(size 1 1)
@@ -14166,7 +14169,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3422936-e2a1-405c-baf9-109b6ae6021c")
+			(uuid "2f13b3a7-7fb4-4fc7-adcb-f7e8a56b0c48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14180,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "622487c9-4683-4a6b-af6f-b0b8e3800741")
+			(uuid "ab13cfb3-029f-4a00-83cf-0949d707ef1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,16 +14357,269 @@
 			)
 		)
 	)
+	(footprint "MyLibrary:RV_2C"
+		(layer "F.Cu")
+		(uuid "7af6694c-3fca-4ee8-8861-82bc9e0348e3")
+		(at 195 58)
+		(property "Reference" "RV4"
+			(at 0 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1b04a1df-917a-408d-839d-e7e2572adce9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 0 -6.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ad230c5c-97ae-4f33-992a-d9793bdfc1e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "099afd7d-6838-416a-b5f7-8af0418eb376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5edb5d59-cf35-4466-aa8d-ccfd8aeb0363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/326dbee4-8ba4-4a7f-8aa8-c5bf9673cbcf")
+		(sheetname "/")
+		(sheetfile "Earphones_amp.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+			(unit
+				(name "B")
+				(pins "4" "6" "5")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.55 -7)
+			(end -4.55 2)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "239220a5-f874-4bf7-a7f4-a14e5cb7c8ac")
+		)
+		(fp_line
+			(start 5 -7)
+			(end -4.55 -7)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7cf4b77e-7ff5-4f2d-87e9-74d270ecdc73")
+		)
+		(fp_line
+			(start 5 -6)
+			(end 10 -6)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e30fd1a3-da25-4d5e-b7d1-7abf56091607")
+		)
+		(fp_line
+			(start 5 -2.5)
+			(end 5 -7)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d1b1fd13-eb03-4271-a1d3-f8f2461431d4")
+		)
+		(fp_line
+			(start 5 -2.5)
+			(end 5 2)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "eb4ea365-b407-441e-aa0c-f26cbd9ba51d")
+		)
+		(fp_line
+			(start 5 2)
+			(end -4.55 2)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "651e4785-55ea-493d-a912-152457d7966c")
+		)
+		(fp_line
+			(start 10 -6)
+			(end 10 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8381cc1a-8595-4ae9-a7fd-7d1a3fc96add")
+		)
+		(fp_line
+			(start 10 -5.5)
+			(end 20 -5.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "607cc758-d39a-4a1a-a729-ad0081b05db4")
+		)
+		(fp_line
+			(start 10 1)
+			(end 5 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a7b14790-0796-45ad-bacd-eda56030b9e4")
+		)
+		(fp_line
+			(start 20 -5.5)
+			(end 20 0.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9816b002-f36c-4dad-8d11-4d46ca8eb2ba")
+		)
+		(fp_line
+			(start 20 0.5)
+			(end 10 0.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "acbc8fbb-9050-4a87-9a72-f3da19c99ff6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "649a129b-c063-4ffd-b730-473dd0bde777")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(R19-Pad2)")
+			(pintype "passive")
+			(uuid "378dd3f4-de6c-4751-9170-1b88d4cb087e")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(U4A-+)")
+			(pintype "passive")
+			(uuid "0b3588bd-9b91-48b2-8d40-cee2bf461fed")
+		)
+		(pad "3" thru_hole circle
+			(at 0 -5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GNDREF")
+			(pintype "passive")
+			(uuid "02a535b6-d309-4d78-80ed-c407de32a6a3")
+		)
+		(pad "4" thru_hole circle
+			(at -2.5 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(R20-Pad2)")
+			(pintype "passive")
+			(uuid "de97ab81-5ef2-4c88-9627-4f6d84a0794e")
+		)
+		(pad "5" thru_hole circle
+			(at -2.5 -2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(U4B-+)")
+			(pintype "passive")
+			(uuid "cb8afc02-ef7d-4b00-88ff-b4ba534205ae")
+		)
+		(pad "6" thru_hole circle
+			(at -2.5 -5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GNDREF")
+			(pintype "passive")
+			(uuid "c1374b36-65ed-4e71-abc5-83015ad596f8")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "7b4bd561-05db-4221-aa76-b9ada959dc76")
-		(at 171.69 96.085)
+		(at 171.665236 102.752123)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U5"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "dc229e12-716d-4b5f-8a20-3d038fcbcc31")
+			(uuid "166be0a8-ff7f-4579-9f08-26c7e2345ee4")
 			(effects
 				(font
 					(size 1 1)
@@ -14374,7 +14630,7 @@
 		(property "Value" "TL074"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "5fc9e4f5-014f-4dcd-82a1-5889ba690fde")
+			(uuid "aaa5de7d-0b52-4729-a296-a76560f8bd9b")
 			(effects
 				(font
 					(size 1 1)
@@ -14386,7 +14642,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dafa114-7a7a-45f0-bea2-802abee5ddef")
+			(uuid "1f456a7e-8e52-4db7-9af0-776a4ca044d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14653,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78040bc3-ec31-4af6-b9cb-ae1d4d8a5ca3")
+			(uuid "1cee708b-a762-4618-b154-44f61d4d6026")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14652,7 +14908,7 @@
 			)
 		)
 		(point
-			(at 175.5 103.705)
+			(at 175.475236 110.372123)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "a54acf74-190d-462f-8173-903e8560edb9")
@@ -14824,13 +15080,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W6.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "7b6f5945-bfbb-415c-af16-a255929f81fa")
-		(at 162.81 59.825 90)
+		(at 162.639352 56.338704 90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*6.0mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 6.0mm Capacitor R82")
 		(property "Reference" "C5"
 			(at 2.5 -4.25 90)
 			(layer "F.SilkS")
-			(uuid "ebe19b4c-ef1d-4bf4-8e99-cf64ea422e7b")
+			(uuid "fb706031-4d50-4fd6-b71d-91033cf6724c")
 			(effects
 				(font
 					(size 1 1)
@@ -14841,7 +15097,7 @@
 		(property "Value" "1u"
 			(at 2.5 4.25 90)
 			(layer "F.Fab")
-			(uuid "5bdc7f7d-a74c-45dd-b67b-9e62647f84c4")
+			(uuid "9910f54a-ff8a-400a-927b-0e6da7b05cb0")
 			(effects
 				(font
 					(size 1 1)
@@ -14853,7 +15109,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfc8a3cb-532d-4a56-8c02-319035db2e2d")
+			(uuid "accb7c8c-f0b2-497c-a7eb-5ab14d18cb8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +15120,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "122b9535-b67c-48ed-8e57-e6e33e8785c2")
+			(uuid "410347cd-64ab-4d24-9390-25cb0d8ae8b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,13 +15260,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "800eb6a4-d303-4d8f-8c55-01434b277ac8")
-		(at 169.11 108.58 -90)
+		(at 169.059584 113.564631 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R14"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "0d1824eb-a4eb-45a8-8135-0d55be881182")
+			(uuid "9f50c6c6-f232-4b25-8ae4-6b13036bebdd")
 			(effects
 				(font
 					(size 1 1)
@@ -15021,7 +15277,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "602c54b8-9ff5-4d98-bd3d-1aefdfde552f")
+			(uuid "7bf8ba5b-daa8-49c1-ab57-7f763209fb56")
 			(effects
 				(font
 					(size 1 1)
@@ -15033,7 +15289,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f0935b5-6a7c-4312-8f4d-79bdcbc70f01")
+			(uuid "312e4e62-e21b-4d05-a2ad-6c36eee30c77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15044,7 +15300,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4dddb2fc-6ea8-48de-b06e-7cac1715ce2a")
+			(uuid "a326a539-b9a7-4d8d-a929-03dc3d6bbab2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,13 +15440,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "85c8fe1a-8534-4d07-8b9f-f03c19d7d596")
-		(at 218.242214 110.415542 90)
+		(at 182.890891 97.426681 180)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q10"
-			(at 2.54 -3.56 90)
+			(at 2.54 -3.56 0)
 			(layer "F.SilkS")
-			(uuid "c8a0210c-1866-463d-9b29-0a56a6699162")
+			(uuid "e3b4245e-11bf-4ace-a312-44c3d62fb7d5")
 			(effects
 				(font
 					(size 1 1)
@@ -15199,9 +15455,9 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 2.54 2.79 90)
+			(at 2.54 2.79 0)
 			(layer "F.Fab")
-			(uuid "3d9cf5df-f3d9-4d25-9c88-789cc442f9ec")
+			(uuid "bbb0051d-d9bc-4493-9e87-f07851bff9b5")
 			(effects
 				(font
 					(size 1 1)
@@ -15210,11 +15466,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "717d0b5a-3cbb-4ea1-9c35-4f25bdb702ab")
+			(uuid "34251399-7da9-46e4-b89a-360e51a32fa8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15223,11 +15479,11 @@
 			)
 		)
 		(property "Description" "PNP transistor, emitter/collector/base"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20b08590-1b09-4af5-bf11-e197aed60242")
+			(uuid "9a2842c8-4589-413a-baa0-0b7bb23988c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15257,28 +15513,6 @@
 			(uuid "0ee1e38f-5f0e-443b-ad8c-f8e3ed3b1885")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "91682214-873e-457d-834e-5f63c59980b2")
-		)
-		(fp_arc
-			(start 0.1836 -1.098807)
-			(mid 1.143021 -2.192817)
-			(end 2.54 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "111496c3-9e61-43d1-805c-91002b2aab6b")
-		)
-		(fp_arc
 			(start 4.842383 1.112264)
 			(mid 4.666594 1.419753)
 			(end 4.45 1.7)
@@ -15288,6 +15522,17 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fb2b0312-6c95-4ca2-a06a-aba429483c4f")
+		)
+		(fp_arc
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91682214-873e-457d-834e-5f63c59980b2")
 		)
 		(fp_arc
 			(start 0.6 1.7)
@@ -15300,25 +15545,16 @@
 			(layer "F.SilkS")
 			(uuid "2790773b-fa07-4e28-8950-8210f319c79c")
 		)
-		(fp_line
-			(start -1 -2.75)
-			(end 6.1 -2.75)
+		(fp_arc
+			(start 0.1836 -1.098807)
+			(mid 1.143021 -2.192817)
+			(end 2.54 -2.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "849b0be3-6603-43a6-9d2e-10ca57db6823")
-		)
-		(fp_line
-			(start -1 -2.75)
-			(end -1 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "61fd6137-71f7-4d80-9def-bf09b0229777")
+			(layer "F.SilkS")
+			(uuid "111496c3-9e61-43d1-805c-91002b2aab6b")
 		)
 		(fp_line
 			(start 6.1 1.85)
@@ -15339,6 +15575,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "292e1c37-e403-4a87-adb4-86d29bb08740")
+		)
+		(fp_line
+			(start -1 -2.75)
+			(end 6.1 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "849b0be3-6603-43a6-9d2e-10ca57db6823")
+		)
+		(fp_line
+			(start -1 -2.75)
+			(end -1 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61fd6137-71f7-4d80-9def-bf09b0229777")
 		)
 		(fp_line
 			(start 0.65 1.6)
@@ -15373,7 +15629,7 @@
 			(uuid "9db60538-adee-4fe9-a54a-0c975323216a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 90)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "0684ad8f-56a0-49eb-92fe-e6f52bc24b7b")
 			(effects
@@ -15384,7 +15640,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15395,7 +15651,7 @@
 			(uuid "66817b46-a6b4-4648-a8f1-3773a5858433")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 90)
+			(at 2.54 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15406,7 +15662,7 @@
 			(uuid "cf4fe00a-308a-4e0a-8407-39854cf7f028")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0 90)
+			(at 5.08 0 180)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15827,13 +16083,13 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "930e08a5-8e65-4a99-9830-8cba096abe2c")
-		(at 194.89 73.178815)
+		(at 160.950669 81.161054)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U4"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "91007598-aea9-4606-95f9-bc1162cddd1b")
+			(uuid "9cd7d005-4968-46e8-b1ce-f7fc87296409")
 			(effects
 				(font
 					(size 1 1)
@@ -15844,7 +16100,7 @@
 		(property "Value" "OPA1655DR"
 			(at 3.81 9.95 0)
 			(layer "F.Fab")
-			(uuid "05c55a81-61f2-473f-b17e-034d6bef81d0")
+			(uuid "f0bffda0-3b58-48bc-bbed-b7117ca3a3b1")
 			(effects
 				(font
 					(size 1 1)
@@ -15856,7 +16112,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02c99d82-51f1-46bd-8418-3a49655499e7")
+			(uuid "55b56030-a91c-4f00-be49-b8ea6fe01d30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +16123,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99caef08-c536-4141-a49e-f825c05b9df0")
+			(uuid "03af7a48-6087-4de6-8d63-391ddbea06a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +16232,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ae39f066-30e2-47c2-8b2c-83755ebf2783")
+			(uuid "ee9d7f93-74f4-44be-858d-418e9f636541")
 		)
 		(fp_line
 			(start 2.81 -1.33)
@@ -15986,7 +16242,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ee9d7f93-74f4-44be-858d-418e9f636541")
+			(uuid "e041a026-2473-4aa7-a3b4-7873fc225481")
 		)
 		(fp_line
 			(start 6.46 -1.33)
@@ -15996,7 +16252,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e041a026-2473-4aa7-a3b4-7873fc225481")
+			(uuid "5a7f77b8-45f7-4acf-aff3-383934f090a9")
 		)
 		(fp_line
 			(start 6.46 8.95)
@@ -16006,7 +16262,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5a7f77b8-45f7-4acf-aff3-383934f090a9")
+			(uuid "ae39f066-30e2-47c2-8b2c-83755ebf2783")
 		)
 		(fp_rect
 			(start -1.33 -1.39)
@@ -16049,7 +16305,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5005b87b-20f4-47ae-a7e8-58f6599e8d78")
+			(uuid "e9cea56e-18ea-48ad-9419-14db7a2a3b54")
 		)
 		(fp_line
 			(start 0.635 8.89)
@@ -16069,7 +16325,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cfc843e1-416a-4a50-a456-8734bb2b5fc7")
+			(uuid "5005b87b-20f4-47ae-a7e8-58f6599e8d78")
 		)
 		(fp_line
 			(start 6.985 -1.27)
@@ -16079,7 +16335,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e9cea56e-18ea-48ad-9419-14db7a2a3b54")
+			(uuid "289814b1-653b-4b88-8cb7-e44a6c279383")
 		)
 		(fp_line
 			(start 6.985 8.89)
@@ -16089,7 +16345,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "289814b1-653b-4b88-8cb7-e44a6c279383")
+			(uuid "cfc843e1-416a-4a50-a456-8734bb2b5fc7")
 		)
 		(fp_rect
 			(start -1.27 -1.33)
@@ -16114,7 +16370,7 @@
 			)
 		)
 		(point
-			(at 198.7 76.988815)
+			(at 164.760669 84.971054)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "d7db5115-afba-4420-9a1b-27cab47bfeba")
@@ -16524,13 +16780,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "980a70d4-4bd1-4bc3-b0ef-645dd716c4b5")
-		(at 166.9 135.24 90)
+		(at 181.9 106.54 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R20"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "b0cd46f2-86cd-4e35-bd0e-fe6ccff009ac")
+			(uuid "b57e523f-6eff-46df-94b1-460d49a44ecb")
 			(effects
 				(font
 					(size 1 1)
@@ -16541,7 +16797,7 @@
 		(property "Value" "10k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "f0b8026c-4aff-4250-b062-2fa3a9126209")
+			(uuid "f859fcf4-fd98-4c1d-a94a-8152e9161b21")
 			(effects
 				(font
 					(size 1 1)
@@ -16553,7 +16809,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e39c095-0369-4ab0-bb59-e956669afde4")
+			(uuid "f03791f2-9fe1-4b02-9818-92673f727e51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16564,7 +16820,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "382c9507-233c-4791-b839-f011b6266539")
+			(uuid "e08178ec-ba5c-4e20-9a38-f50fa687a91e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16704,13 +16960,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9a1785ee-eda5-4fb1-bab5-a681860383a8")
-		(at 167.01 98.86 90)
+		(at 166.959584 103.844631 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R8"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "cb28e9c7-1a83-4d55-ba08-7405cef5cad4")
+			(uuid "03a12795-aad2-4246-a9ba-08932fa72101")
 			(effects
 				(font
 					(size 1 1)
@@ -16721,7 +16977,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "a3754e18-752f-4505-9d3e-fc43243d6394")
+			(uuid "03223f8b-eb58-4f12-9283-f5075a68688b")
 			(effects
 				(font
 					(size 1 1)
@@ -16733,7 +16989,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e31c400-8e14-46f4-80a3-6eed47ab4c3c")
+			(uuid "ebac6c60-4516-4248-bd79-ceeaf0616ba0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,7 +17000,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57f3be45-9355-4e72-ba04-41eb693cb53f")
+			(uuid "d423a8de-80d0-41f7-ba86-d51aaada3303")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,13 +17140,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9b307413-f7e6-4228-99d8-bba292e45a25")
-		(at 214.442214 95.235542 -90)
+		(at 175.75 86.5 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R29"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "c65fb69e-ce20-4b84-9d3c-9a9fdfc5f111")
+			(uuid "8060fc04-3b6d-4189-9077-bcd86f5e63d5")
 			(effects
 				(font
 					(size 1 1)
@@ -16901,7 +17157,7 @@
 		(property "Value" "1k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "15d9f8da-a1cf-42ac-bdba-7871e02e5fe1")
+			(uuid "41dc9e64-2ddc-4ae2-bcf6-2b530596a16a")
 			(effects
 				(font
 					(size 1 1)
@@ -16913,7 +17169,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7028568-2dd6-4db1-af23-84239ecf6ed2")
+			(uuid "98795479-7ae4-460b-aee7-66184486d83c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16924,7 +17180,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01b43e86-5b0f-4409-9360-90afde404cca")
+			(uuid "95b5856e-2e73-485e-9a1c-5c98b83d8a72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17064,13 +17320,14 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "9b64d2b8-10ef-4800-a46c-071fbff13af2")
-		(at 218.242214 97.311727 90)
+		(at 177.80402 87.721491)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q9"
-			(at 2.54 -3.56 90)
+			(at 2.54 -3.56 0)
 			(layer "F.SilkS")
-			(uuid "1b0066c1-f788-43e8-9222-0782896d3c46")
+			(hide yes)
+			(uuid "9bba4612-a6a1-4a47-bb54-04cb9b602996")
 			(effects
 				(font
 					(size 1 1)
@@ -17079,9 +17336,9 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 2.54 2.79 90)
+			(at 2.54 2.79 0)
 			(layer "F.Fab")
-			(uuid "bdf6537e-3c9e-4121-9971-bab8b7b93243")
+			(uuid "efecb710-e2fd-44e6-a01b-91ba45661b25")
 			(effects
 				(font
 					(size 1 1)
@@ -17090,11 +17347,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7f95fbb-b727-4cbc-858e-b4c339eb6641")
+			(uuid "1a542386-9b22-40e3-afdd-153d488a9024")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17103,11 +17360,11 @@
 			)
 		)
 		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52f6fb31-448e-4e44-874c-0353a698808f")
+			(uuid "947b75f3-3f55-41bd-ab13-b47b780c8523")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,17 +17394,6 @@
 			(uuid "a42a04cd-b280-4887-a2ad-ceece70e2735")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "01cdc301-48bc-474c-9212-6978326ef588")
-		)
-		(fp_arc
 			(start 0.1836 -1.098807)
 			(mid 1.143021 -2.192817)
 			(end 2.54 -2.6)
@@ -17157,17 +17403,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "1a2a11e1-a872-40df-a294-61ce3e4a4453")
-		)
-		(fp_arc
-			(start 4.842383 1.112264)
-			(mid 4.666594 1.419753)
-			(end 4.45 1.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "989a01b6-4007-480c-b437-ca22232fdff3")
 		)
 		(fp_arc
 			(start 0.6 1.7)
@@ -17180,15 +17415,27 @@
 			(layer "F.SilkS")
 			(uuid "2fdf25fe-e6ee-40c7-86f3-9ed6f58dc4a9")
 		)
-		(fp_line
-			(start -1 -2.75)
-			(end 6.1 -2.75)
+		(fp_arc
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "aba7a147-3f6e-4f6a-a37d-deacaba911c8")
+			(layer "F.SilkS")
+			(uuid "01cdc301-48bc-474c-9212-6978326ef588")
+		)
+		(fp_arc
+			(start 4.842383 1.112264)
+			(mid 4.666594 1.419753)
+			(end 4.45 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "989a01b6-4007-480c-b437-ca22232fdff3")
 		)
 		(fp_line
 			(start -1 -2.75)
@@ -17201,14 +17448,14 @@
 			(uuid "967c451a-46c0-4094-9e7c-36145ec6740d")
 		)
 		(fp_line
-			(start 6.1 1.85)
+			(start -1 -2.75)
 			(end 6.1 -2.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "51c48c2c-7abd-45cf-87cf-76e5bdc9e280")
+			(uuid "aba7a147-3f6e-4f6a-a37d-deacaba911c8")
 		)
 		(fp_line
 			(start 6.1 1.85)
@@ -17221,6 +17468,16 @@
 			(uuid "a455b971-0130-4f02-8526-39d49d10b64e")
 		)
 		(fp_line
+			(start 6.1 1.85)
+			(end 6.1 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51c48c2c-7abd-45cf-87cf-76e5bdc9e280")
+		)
+		(fp_line
 			(start 0.65 1.6)
 			(end 4.4 1.6)
 			(stroke
@@ -17229,17 +17486,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "1ac22340-1c60-47da-927c-18127e61e390")
-		)
-		(fp_arc
-			(start 2.54 -2.48)
-			(mid 4.787211 -1.049019)
-			(end 4.441103 1.592547)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e8ddef8a-9488-4c9d-8c35-f7212c689674")
 		)
 		(fp_arc
 			(start 0.647182 1.602385)
@@ -17252,8 +17498,19 @@
 			(layer "F.Fab")
 			(uuid "195547ed-d2fa-46d0-a2b6-df45f959df0b")
 		)
+		(fp_arc
+			(start 2.54 -2.48)
+			(mid 4.787211 -1.049019)
+			(end 4.441103 1.592547)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e8ddef8a-9488-4c9d-8c35-f7212c689674")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 90)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "ec39f2d4-2e6b-4fe9-9018-338d9b7ffdcd")
 			(effects
@@ -17264,7 +17521,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -17275,7 +17532,7 @@
 			(uuid "e6261242-8749-469b-b18e-0b0bea3b9017")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 90)
+			(at 2.54 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -17286,7 +17543,7 @@
 			(uuid "ca1decfb-4b56-4a35-a7b1-5b5a0ac207a8")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0 90)
+			(at 5.08 0)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -17312,13 +17569,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9df787a7-a09a-4a23-b5f4-61cde09fbb1a")
-		(at 214.894882 86.633815 90)
+		(at 175.752106 83.471177 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R28"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "32a577ea-b9da-4f50-9762-e864013b9f19")
+			(uuid "a13dc208-ce85-45d4-badd-ce24a022cc6c")
 			(effects
 				(font
 					(size 1 1)
@@ -17329,7 +17586,7 @@
 		(property "Value" "1k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "dad83ad1-63b4-4663-979d-f26d26940f28")
+			(uuid "1430a55d-4791-42e0-9b05-c089ec5d9bf5")
 			(effects
 				(font
 					(size 1 1)
@@ -17341,7 +17598,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46b402b8-de90-4cfd-a81b-e2adb601740e")
+			(uuid "0bee784b-3203-469e-9932-3d14b596ec1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17609,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70937169-7306-4b9e-8f04-3ea3241867c3")
+			(uuid "c8b00319-5ba3-4bb7-b7f3-9c6e2675fe70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17895,7 +18152,7 @@
 	(footprint "MyLibrary:MJ352W"
 		(layer "F.Cu")
 		(uuid "a7ab14d3-ad9b-47f2-aa3a-92be22232ddb")
-		(at 233.012214 93.261727 -90)
+		(at 197.9 103 -90)
 		(property "Reference" "J2"
 			(at 0 -3.7 270)
 			(unlocked yes)
@@ -18047,7 +18304,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15)
-			(net "/outR")
+			(net "/out_R")
 			(pintype "passive")
 			(uuid "cd0218e1-ab0e-4c4e-b75c-a1f2eb98dca0")
 		)
@@ -18069,7 +18326,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15)
-			(net "/outL")
+			(net "/out_L")
 			(pintype "passive")
 			(uuid "11a02fe0-7494-42ee-aea9-141144e9045a")
 		)
@@ -18078,13 +18335,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "aa3dfcce-9564-4078-8cf5-50700e8362cc")
-		(at 167.11 69.585 -90)
+		(at 166.939352 66.098704 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R11"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "e29824f1-b5f9-45e1-a94a-a42ccd0bceca")
+			(uuid "630eee57-a41d-4dbf-b04f-d6a172e2828e")
 			(effects
 				(font
 					(size 1 1)
@@ -18095,7 +18352,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "8e05f0d6-baef-40c4-87ec-835cab8d881f")
+			(uuid "787353ce-663e-4190-8268-1d236334e5d7")
 			(effects
 				(font
 					(size 1 1)
@@ -18107,7 +18364,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69e70ba1-e045-4176-80eb-434c43622098")
+			(uuid "04475b87-0f84-4b13-a380-b723300ab79b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18375,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b343110f-205f-4e4a-8d68-990a2347ebc3")
+			(uuid "2dad7e60-4461-49fc-a0a0-cb2251d5ac87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18258,7 +18515,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "b42b4c32-e80a-449a-a5af-391d9a2d5305")
-		(at 163.91 63.185)
+		(at 163.739352 59.698704)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*3.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 3.5mm Capacitor R82")
 		(property "Reference" "C3"
@@ -18438,7 +18695,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "b4bfc1d1-92c5-4fdb-8ed9-d51f84244bd7")
-		(at 163.81 102.18)
+		(at 163.759584 107.164631)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*3.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 3.5mm Capacitor R82")
 		(property "Reference" "C4"
@@ -18618,7 +18875,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "bcbec3c2-9059-495c-a5f1-2b57babf3147")
-		(at 163.789041 105.720539)
+		(at 163.738625 110.70517)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C8"
@@ -18804,7 +19061,7 @@
 		(property "Reference" "R5"
 			(at 2.54 -1.92 0)
 			(layer "F.SilkS")
-			(uuid "4c71a87d-40f4-4d25-8912-72ae7c0f06cd")
+			(uuid "e00216b0-527d-47d7-a52c-164ec351efa5")
 			(effects
 				(font
 					(size 1 1)
@@ -18815,7 +19072,7 @@
 		(property "Value" "10k"
 			(at 2.54 1.92 0)
 			(layer "F.Fab")
-			(uuid "abe4f370-b0a0-41bd-9c4e-0f796bf2d8ce")
+			(uuid "5ec89816-2501-436f-8d17-5edd371ef58d")
 			(effects
 				(font
 					(size 1 1)
@@ -18827,7 +19084,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7f77be2-b07a-4a8f-ade2-6933382b2dda")
+			(uuid "faff35a1-7c85-452c-91a9-682907b89012")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18838,7 +19095,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e82b1f0-c504-46b4-92ae-dfa2165cec1a")
+			(uuid "24ee5641-28ba-4ec1-a71d-8e8055409993")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18958,7 +19215,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3D-+)")
+			(net "Net-(U3C-+)")
 			(pintype "passive")
 			(uuid "2784a8eb-9d47-4cca-b62b-46cffb17bfdf")
 		)
@@ -18978,13 +19235,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c03c21fd-45bb-435f-807a-77298bad548b")
-		(at 216.994882 82.025)
+		(at 177.852106 78.862362)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R32"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "d54f904d-9d71-460f-8532-eade74e53138")
+			(uuid "4f243986-42e1-4c21-b9f5-68475996ccf9")
 			(effects
 				(font
 					(size 1 1)
@@ -18995,7 +19252,7 @@
 		(property "Value" "2.2"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
-			(uuid "0f475a82-81d8-4daf-9e2c-962356f5f11a")
+			(uuid "bdb9c029-b798-4d48-99ae-d26c6e48284c")
 			(effects
 				(font
 					(size 1 1)
@@ -19007,7 +19264,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c411bb34-f432-4a55-a449-4546d4b8fbfd")
+			(uuid "71c49b13-3863-4b92-984e-0ea4e21e0881")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19275,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68cdda23-1ec7-4f57-95b1-f19cf7c646d4")
+			(uuid "5acbdc17-03bd-4af7-b7f5-2a3cc308bc5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19198,13 +19455,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "cacd2143-4ebf-499b-b9a7-4f3c5a55329d")
-		(at 211.994882 79.528815 90)
+		(at 172.852106 76.366177 90)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q3"
 			(at 2.54 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "0b18a76e-ad5a-4002-a49c-4aaffa9baf71")
+			(uuid "9062d855-f24f-49e4-b0c2-a4fe3e977e06")
 			(effects
 				(font
 					(size 1 1)
@@ -19215,7 +19472,7 @@
 		(property "Value" "PNP"
 			(at 2.54 2.79 90)
 			(layer "F.Fab")
-			(uuid "1a154226-bafd-4898-93ac-273d0e072322")
+			(uuid "d499aef4-9b56-4ba6-b552-7e4c66e8a14b")
 			(effects
 				(font
 					(size 1 1)
@@ -19228,7 +19485,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84893261-139d-4403-a79a-b054807a9285")
+			(uuid "dfadd736-7404-4e4c-a840-8da31399f736")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19241,7 +19498,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "717748b5-dfec-438f-8bd1-f0c17adb724c")
+			(uuid "ba7bbc24-683c-4dc4-930c-61d845cd2d2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19446,13 +19703,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 		(layer "F.Cu")
 		(uuid "ccd0c2c2-8aa4-41c5-8c79-218676d414b6")
-		(at 211.542214 100.315542 90)
+		(at 172.85 91.58 90)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q5"
 			(at 2.54 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "55939ae7-696c-496d-95d2-3868f2687077")
+			(uuid "d41ddbf3-cc68-42fa-9bc3-fbe199226ad6")
 			(effects
 				(font
 					(size 1 1)
@@ -19463,7 +19720,7 @@
 		(property "Value" "PNP"
 			(at 2.54 2.79 90)
 			(layer "F.Fab")
-			(uuid "45be4b5e-73c3-4b6a-ad63-dd3413bfa5a1")
+			(uuid "ed8153bc-e24b-40de-99ca-721e4800bf83")
 			(effects
 				(font
 					(size 1 1)
@@ -19476,7 +19733,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b5549a6-b551-48c4-917d-3289e0244fe5")
+			(uuid "ef32ecc7-7bc9-43a0-a256-33dec0825143")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19489,7 +19746,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06e1f6b7-9330-4f88-89a6-568622b8a950")
+			(uuid "b3dacc6f-9e93-48c7-9e63-28bee63532d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,13 +19951,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d0a18ae2-e40d-4f3d-a7c1-cfe08a0fa1a5")
-		(at 164.51 69.625 -90)
+		(at 164.339352 66.138704 -90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C9"
 			(at 2.5 -2.5 90)
 			(layer "F.SilkS")
-			(uuid "71991a06-b5e0-4ce5-a522-1d6cc1f01e43")
+			(uuid "612be0d9-dec4-4557-98b6-419cc6a1958e")
 			(effects
 				(font
 					(size 1 1)
@@ -19711,7 +19968,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.5 90)
 			(layer "F.Fab")
-			(uuid "efe3a7de-a23c-4eef-90a5-c3f8a9f5727d")
+			(uuid "c3c35057-a886-4bcc-b7ce-defa25989794")
 			(effects
 				(font
 					(size 1 1)
@@ -19723,7 +19980,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec9bbde7-6de1-4e3e-a96f-bf29c7c31eee")
+			(uuid "0fa9b991-eba3-407b-b4e7-58a6a659cdf2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19734,7 +19991,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c36c5e18-2300-4cb7-9298-e91b019d4734")
+			(uuid "2aa2a2b2-04e2-4a92-85d3-7ee1cb5d14db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19874,7 +20131,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d23a81af-69bd-4ba1-8692-f2fc77f405c3")
-		(at 252.22 104.1)
+		(at 164.06 95.7)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R26"
@@ -20054,13 +20311,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d24c5bae-0297-4a0b-96ef-15556b5263d2")
-		(at 224.162214 102.811727 180)
+		(at 185.47 94.076185 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R34"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "77e54182-219f-4cb1-a383-31f8e015bfc2")
+			(uuid "1f8795c4-3dcb-4460-b2c7-3dbe6b952df9")
 			(effects
 				(font
 					(size 1 1)
@@ -20071,7 +20328,7 @@
 		(property "Value" "2.2"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
-			(uuid "43515dde-b62a-4043-9e0c-28c743233612")
+			(uuid "f6b1875f-ca26-4d43-be2a-26f400cd34bf")
 			(effects
 				(font
 					(size 1 1)
@@ -20083,7 +20340,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0c90ecc-42ad-49e4-8371-cd9dde9eb71e")
+			(uuid "1b555da1-6a2e-4c3d-bceb-4138a9bb1e82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20094,7 +20351,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69f4a095-d712-4fb9-9c0d-22444d6f2324")
+			(uuid "11265cbb-90bd-4593-9966-5b2a45cff0b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20274,13 +20531,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d723a40c-61f6-43d2-ae59-c3b0a448ca35")
-		(at 214.442214 107.420542 90)
+		(at 175.75 98.685 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R30"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "8529bac9-62d1-4db5-9227-4e8e0df239f2")
+			(uuid "93ca5205-8941-468b-bc29-dc8a704dcc3a")
 			(effects
 				(font
 					(size 1 1)
@@ -20291,7 +20548,7 @@
 		(property "Value" "1k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "a5cd4741-8942-4fc6-8161-6544ba1f7a51")
+			(uuid "dbd3e9ba-630c-4933-af3b-52a9de32d617")
 			(effects
 				(font
 					(size 1 1)
@@ -20303,7 +20560,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67bd8237-2bbe-408c-8546-819be4a2ee7d")
+			(uuid "cf23d35a-f4d5-4a9f-97e9-65d76fb5b0fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20314,7 +20571,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bea7eb9-99cc-4813-8f35-294fd6409ac0")
+			(uuid "73e1ac21-8cb3-4d38-9d9c-53f4873499e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20454,7 +20711,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e19fc433-0ba7-4b8d-be88-5104aa525347")
-		(at 253.2 111.7)
+		(at 164.06 78.5)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R25"
@@ -20942,7 +21199,7 @@
 		(property "Reference" "R6"
 			(at 2.54 -1.92 0)
 			(layer "F.SilkS")
-			(uuid "919aaaf9-2fcc-4c97-8863-e5faf833bf71")
+			(uuid "1dc7984c-ae7f-4676-96f1-9c63111acaad")
 			(effects
 				(font
 					(size 1 1)
@@ -20953,7 +21210,7 @@
 		(property "Value" "10k"
 			(at 2.54 1.92 0)
 			(layer "F.Fab")
-			(uuid "7fe13556-313e-4f7c-8752-d85d26ce35af")
+			(uuid "c0277336-5366-4523-90d4-0ba655955d4c")
 			(effects
 				(font
 					(size 1 1)
@@ -20965,7 +21222,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9792693-41e0-4112-b6df-e62ae5ccd06b")
+			(uuid "535ad58c-99d6-497a-9843-39d7b50ef416")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20976,7 +21233,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acc9ee76-df58-4203-82b3-1de99c87a038")
+			(uuid "74a8de3f-7dd4-4eaf-8c72-64888ca52d8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21403,7 +21660,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "f027129c-295c-4915-b740-1495474620cd")
-		(at 163.889041 66.725539)
+		(at 163.718393 63.239243)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C7"
@@ -21583,13 +21840,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f297f15c-3256-4eb1-b2c9-158f3fb71851")
-		(at 214.894882 74.448815 -90)
+		(at 175.752106 71.286177 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R27"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "96c2d1b8-8481-4e7c-9fe2-21307af74bb9")
+			(uuid "9e035cbf-d3df-4de5-bb35-92012f3f6cac")
 			(effects
 				(font
 					(size 1 1)
@@ -21600,7 +21857,7 @@
 		(property "Value" "1k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "20e73920-42ed-4eca-b719-545470347d03")
+			(uuid "9e90c86c-cbe7-416a-9864-af35f62ce4f0")
 			(effects
 				(font
 					(size 1 1)
@@ -21612,7 +21869,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "868e861c-94f6-424b-ac46-07c2d9db9608")
+			(uuid "f074e644-29e4-49dd-9331-ef762ac35ca1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21623,7 +21880,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b491c8e1-1c3a-4b1d-8267-30905b0c36f3")
+			(uuid "5a2d1189-2ed0-4300-9f32-8fab0d9c8973")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21763,13 +22020,13 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "f46db44d-f4ca-480f-b2f7-4be0b4f6005b")
-		(at 186.759863 69.625539 -90)
+		(at 186.476926 56.338704 90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*2.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 2.5mm Capacitor R82")
 		(property "Reference" "C13"
 			(at 2.5 -2.5 90)
 			(layer "F.SilkS")
-			(uuid "bcecdcf2-a8e9-4fb3-850d-7f2f549cfa7d")
+			(uuid "9fb557fb-64c0-4f7f-9024-fd249e31937b")
 			(effects
 				(font
 					(size 1 1)
@@ -21780,7 +22037,7 @@
 		(property "Value" "0.01u"
 			(at 2.5 2.5 90)
 			(layer "F.Fab")
-			(uuid "51605e02-107e-4e89-8715-e4f10cdebd1c")
+			(uuid "a6c48948-0ce5-4e27-b7ad-195a706262ab")
 			(effects
 				(font
 					(size 1 1)
@@ -21792,7 +22049,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34877384-6736-4a23-a70f-3617fbe64ff1")
+			(uuid "7cdea8b1-fbce-42ec-a6b9-59a7ba25535c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21803,7 +22060,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d084db7-a5ac-44af-8d9e-01d314e15113")
+			(uuid "2d66cb03-92f0-4f33-a780-5339a0cbac21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21835,24 +22092,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.22 1.37)
-			(end -1.22 -1.37)
+			(start 6.22 -1.37)
+			(end 6.22 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b3e1505-51db-4cf9-9205-c13ca5f33a69")
-		)
-		(fp_line
-			(start 6.22 1.37)
-			(end -1.22 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5bd9c713-5036-4dc8-9890-018011bd5332")
+			(uuid "bb937860-b06d-4135-8127-dd4fdebfec08")
 		)
 		(fp_line
 			(start -1.22 -1.37)
@@ -21865,14 +22112,24 @@
 			(uuid "53b250b6-fd09-4366-a7ca-b55e24d1b31b")
 		)
 		(fp_line
-			(start 6.22 -1.37)
-			(end 6.22 1.37)
+			(start 6.22 1.37)
+			(end -1.22 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bb937860-b06d-4135-8127-dd4fdebfec08")
+			(uuid "5bd9c713-5036-4dc8-9890-018011bd5332")
+		)
+		(fp_line
+			(start -1.22 1.37)
+			(end -1.22 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b3e1505-51db-4cf9-9205-c13ca5f33a69")
 		)
 		(fp_rect
 			(start -1.35 -1.5)
@@ -21908,7 +22165,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -21918,12 +22175,12 @@
 			(uuid "3ce928cb-73b2-452e-b9fd-81cc147ba819")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0 270)
+			(at 5 0 90)
 			(size 1.5 1.5)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3C-+)")
+			(net "Net-(U3D-+)")
 			(pintype "passive")
 			(uuid "7a08450d-b317-4e2e-8394-b75fcebe87aa")
 		)
@@ -21943,13 +22200,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f505f24f-d6b6-4d2d-9fe2-6501196c8734")
-		(at 169.21 69.585 -90)
+		(at 169.039352 66.098704 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R13"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "aee03c3d-893e-4a2e-85a4-852a80c254ca")
+			(uuid "fd515e43-78c8-4e30-b19c-9045b9f80806")
 			(effects
 				(font
 					(size 1 1)
@@ -21960,7 +22217,7 @@
 		(property "Value" "47k"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "8f7943ad-5f5f-4b70-abe8-d0710ce62b3f")
+			(uuid "675cc406-481d-4131-b6f8-43a214dade81")
 			(effects
 				(font
 					(size 1 1)
@@ -21972,7 +22229,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a363dfe9-58f1-4323-8a44-d2f68bedaf46")
+			(uuid "b8c181fb-7a46-452c-992f-8f1e7fd933b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21983,7 +22240,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c98519f-6bf9-405a-a901-18d309097b1f")
+			(uuid "cd02f9c2-9163-48a9-acfe-214eb901353a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22123,13 +22380,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f79911d4-12d4-4539-955d-611009e10f9b")
-		(at 167.01 108.58 -90)
+		(at 166.959584 113.564631 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R12"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "95edcb61-9047-4711-be79-fdea03622b49")
+			(uuid "7c00ced0-a7f1-443c-93ff-71f769efaad8")
 			(effects
 				(font
 					(size 1 1)
@@ -22140,7 +22397,7 @@
 		(property "Value" "680"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "ceceac82-8bdd-4418-b0d8-7a206bb22b0b")
+			(uuid "a1de733e-f337-49fb-9ed4-dc57de99692e")
 			(effects
 				(font
 					(size 1 1)
@@ -22152,7 +22409,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "932f1bd0-d234-4be1-b449-635d1e3f92ad")
+			(uuid "aa6d731f-dc56-4ed7-b304-807046d3ffae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22163,7 +22420,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afc2f461-4bb3-46a1-aba1-57f902cb5ed3")
+			(uuid "64f52fcb-30b8-4921-8d55-d14d3bce165e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22300,264 +22557,6 @@
 			)
 		)
 	)
-	(footprint "MyLibrary:RV_2C"
-		(layer "B.Cu")
-		(uuid "7af6694c-3fca-4ee8-8861-82bc9e0348e3")
-		(at 224.614882 43.2)
-		(property "Reference" "RV4"
-			(at 0 8 180)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "1b04a1df-917a-408d-839d-e7e2572adce9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "50k"
-			(at 0 6.5 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "ad230c5c-97ae-4f33-992a-d9793bdfc1e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "099afd7d-6838-416a-b5f7-8af0418eb376")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5edb5d59-cf35-4466-aa8d-ccfd8aeb0363")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/326dbee4-8ba4-4a7f-8aa8-c5bf9673cbcf")
-		(sheetname "/")
-		(sheetfile "Earphones_amp.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-			(unit
-				(name "B")
-				(pins "4" "6" "5")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -4.55 7)
-			(end -4.55 -2)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "239220a5-f874-4bf7-a7f4-a14e5cb7c8ac")
-		)
-		(fp_line
-			(start 5 -2)
-			(end -4.55 -2)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "651e4785-55ea-493d-a912-152457d7966c")
-		)
-		(fp_line
-			(start 5 2.5)
-			(end 5 -2)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "eb4ea365-b407-441e-aa0c-f26cbd9ba51d")
-		)
-		(fp_line
-			(start 5 2.5)
-			(end 5 7)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "d1b1fd13-eb03-4271-a1d3-f8f2461431d4")
-		)
-		(fp_line
-			(start 5 6)
-			(end 10 6)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "e30fd1a3-da25-4d5e-b7d1-7abf56091607")
-		)
-		(fp_line
-			(start 5 7)
-			(end -4.55 7)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "7cf4b77e-7ff5-4f2d-87e9-74d270ecdc73")
-		)
-		(fp_line
-			(start 10 -1)
-			(end 5 -1)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "a7b14790-0796-45ad-bacd-eda56030b9e4")
-		)
-		(fp_line
-			(start 10 5.5)
-			(end 20 5.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "607cc758-d39a-4a1a-a729-ad0081b05db4")
-		)
-		(fp_line
-			(start 10 6)
-			(end 10 -1)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "8381cc1a-8595-4ae9-a7fd-7d1a3fc96add")
-		)
-		(fp_line
-			(start 20 -0.5)
-			(end 10 -0.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "acbc8fbb-9050-4a87-9a72-f3da19c99ff6")
-		)
-		(fp_line
-			(start 20 5.5)
-			(end 20 -0.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "B.SilkS")
-			(uuid "9816b002-f36c-4dad-8d11-4d46ca8eb2ba")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "649a129b-c063-4ffd-b730-473dd0bde777")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(R19-Pad2)")
-			(pintype "passive")
-			(uuid "378dd3f4-de6c-4751-9170-1b88d4cb087e")
-		)
-		(pad "2" thru_hole circle
-			(at 0 2.5)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(U4A-+)")
-			(pintype "passive")
-			(uuid "0b3588bd-9b91-48b2-8d40-cee2bf461fed")
-		)
-		(pad "3" thru_hole circle
-			(at 0 5)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GNDREF")
-			(pintype "passive")
-			(uuid "02a535b6-d309-4d78-80ed-c407de32a6a3")
-		)
-		(pad "4" thru_hole circle
-			(at -2.5 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(R20-Pad2)")
-			(pintype "passive")
-			(uuid "de97ab81-5ef2-4c88-9627-4f6d84a0794e")
-		)
-		(pad "5" thru_hole circle
-			(at -2.5 2.5)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(U4B-+)")
-			(pintype "passive")
-			(uuid "cb8afc02-ef7d-4b00-88ff-b4ba534205ae")
-		)
-		(pad "6" thru_hole circle
-			(at -2.5 5)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GNDREF")
-			(pintype "passive")
-			(uuid "c1374b36-65ed-4e71-abc5-83015ad596f8")
-		)
-		(embedded_fonts no)
-	)
 	(gr_rect
 		(start 100 50)
 		(end 200 120)
@@ -22570,33 +22569,7 @@
 		(uuid "c447b577-dc29-4b1c-a5db-d6ca1d8d02b1")
 	)
 	(group ""
-		(uuid "32812a47-430e-4481-b8e2-a1c5451f9a7b")
-		(members "04af872c-b5c4-4c9f-972d-f65f48e95e50" "05745231-15f4-423a-ab51-d43223794a0e"
-			"316d20b5-1f0d-400f-830d-ff6de62c546f" "6072e18e-8922-49b7-aeba-8e74edf2ebc0"
-			"9df787a7-a09a-4a23-b5f4-61cde09fbb1a" "c03c21fd-45bb-435f-807a-77298bad548b"
-			"cacd2143-4ebf-499b-b9a7-4f3c5a55329d" "f297f15c-3256-4eb1-b2c9-158f3fb71851"
-		)
-	)
-	(group ""
-		(uuid "3fc88149-4b5a-440f-bdb3-3af85affd455")
-		(members "aa3dfcce-9564-4078-8cf5-50700e8362cc" "d0a18ae2-e40d-4f3d-a7c1-cfe08a0fa1a5"
-			"f027129c-295c-4915-b740-1495474620cd" "f505f24f-d6b6-4d2d-9fe2-6501196c8734"
-		)
-	)
-	(group ""
-		(uuid "433f89a2-3190-44f8-a12d-8fd374f0453d")
-		(members "3fc88149-4b5a-440f-bdb3-3af85affd455" "4af24bd0-5d4f-4c58-a0d2-11278a8d3e31"
-			"85dc2f0e-6542-4671-9cb3-a70fa6281279" "fe2ff886-fa6c-4a69-a231-693957e2fabf"
-		)
-	)
-	(group ""
-		(uuid "6e5e79ce-d770-4301-a5ca-6f310eee07f9")
-		(members "7b4bd561-05db-4221-aa76-b9ada959dc76" "87406e69-63d2-4785-b7d5-a9780cf84c63"
-			"f7b4cf9e-0f48-44f3-8b31-ed36a2c3cf7d" "fe0d5a25-6a5e-4ace-8eb5-4acbd34dbf01"
-		)
-	)
-	(group ""
-		(uuid "720fcd04-ad5d-4196-8740-4ce17dde450d")
+		(uuid "2e003afd-e174-482d-9112-1ae4dc8c5295")
 		(members "494d91dd-3e79-46d4-ad0a-8f94caf2a2f8" "7a765327-64cb-46ed-989d-c3bac6dba406"
 			"85c8fe1a-8534-4d07-8b9f-f03c19d7d596" "9b307413-f7e6-4228-99d8-bba292e45a25"
 			"9b64d2b8-10ef-4800-a46c-071fbff13af2" "ccd0c2c2-8aa4-41c5-8c79-218676d414b6"
@@ -22604,15 +22577,29 @@
 		)
 	)
 	(group ""
-		(uuid "85dc2f0e-6542-4671-9cb3-a70fa6281279")
-		(members "0099fd88-8d59-4735-89f9-d59a2a0aeb1f" "0b0c7f1e-9eda-4163-a938-e59c411dc132"
-			"3552f975-b6bc-4180-bba5-e2c693cfd883" "f46db44d-f4ca-480f-b2f7-4be0b4f6005b"
+		(uuid "3fc88149-4b5a-440f-bdb3-3af85affd455")
+		(members "f027129c-295c-4915-b740-1495474620cd")
+	)
+	(group ""
+		(uuid "6e5e79ce-d770-4301-a5ca-6f310eee07f9")
+		(members "87406e69-63d2-4785-b7d5-a9780cf84c63" "f7b4cf9e-0f48-44f3-8b31-ed36a2c3cf7d"
+			"fe0d5a25-6a5e-4ace-8eb5-4acbd34dbf01"
 		)
 	)
 	(group ""
 		(uuid "87406e69-63d2-4785-b7d5-a9780cf84c63")
-		(members "31a3d841-beba-4400-8363-a7a4f4352d6d" "3774a21a-018d-48c7-ac06-102fab86b063"
-			"58cb986b-2dd4-4632-9ee5-1d6c9b2332a9" "5b8e7aae-a5c9-41a9-8040-79b1794f65d9"
+		(members "3774a21a-018d-48c7-ac06-102fab86b063")
+	)
+	(group ""
+		(uuid "a132ffd6-6c86-49c8-b396-1aef217232df")
+		(members "2e003afd-e174-482d-9112-1ae4dc8c5295" "b3192cff-88b5-4b72-80f0-e0cd513c734c")
+	)
+	(group ""
+		(uuid "b3192cff-88b5-4b72-80f0-e0cd513c734c")
+		(members "04af872c-b5c4-4c9f-972d-f65f48e95e50" "05745231-15f4-423a-ab51-d43223794a0e"
+			"316d20b5-1f0d-400f-830d-ff6de62c546f" "6072e18e-8922-49b7-aeba-8e74edf2ebc0"
+			"9df787a7-a09a-4a23-b5f4-61cde09fbb1a" "c03c21fd-45bb-435f-807a-77298bad548b"
+			"cacd2143-4ebf-499b-b9a7-4f3c5a55329d" "f297f15c-3256-4eb1-b2c9-158f3fb71851"
 		)
 	)
 	(group ""
@@ -22625,21 +22612,19 @@
 	)
 	(group ""
 		(uuid "f7b4cf9e-0f48-44f3-8b31-ed36a2c3cf7d")
-		(members "066969bc-e4d6-4ab4-ab2f-b1cdb4b4032a" "08799027-f052-4d94-b680-15363dd0911f"
-			"9a1785ee-eda5-4fb1-bab5-a681860383a8" "b4bfc1d1-92c5-4fdb-8ed9-d51f84244bd7"
-		)
+		(members "b4bfc1d1-92c5-4fdb-8ed9-d51f84244bd7")
+	)
+	(group ""
+		(uuid "f7b72b30-46cd-4b03-8a02-f7ce9bb2146a")
+		(members "0b0c7f1e-9eda-4163-a938-e59c411dc132")
 	)
 	(group ""
 		(uuid "fe0d5a25-6a5e-4ace-8eb5-4acbd34dbf01")
-		(members "04d6f4fd-782b-4c91-a4e4-6d9b127a4277" "800eb6a4-d303-4d8f-8c55-01434b277ac8"
-			"bcbec3c2-9059-495c-a5f1-2b57babf3147" "f79911d4-12d4-4539-955d-611009e10f9b"
-		)
+		(members "bcbec3c2-9059-495c-a5f1-2b57babf3147")
 	)
 	(group ""
 		(uuid "fe2ff886-fa6c-4a69-a231-693957e2fabf")
-		(members "10faf86c-7ef1-48c5-8e13-ce16c22b913d" "76f7dc2d-4008-4581-8e45-a6d67781af8f"
-			"7b6f5945-bfbb-415c-af16-a255929f81fa" "b42b4c32-e80a-449a-a5af-391d9a2d5305"
-		)
+		(members "b42b4c32-e80a-449a-a5af-391d9a2d5305")
 	)
 	(embedded_fonts no)
 )

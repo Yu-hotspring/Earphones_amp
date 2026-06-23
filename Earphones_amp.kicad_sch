@@ -9225,22 +9225,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "332c1d3b-b1a9-4484-b108-3675484993f7")
+			(uuid "332c1d3b-b1a9-4484-b108-3675484993f8")
 		)
 		(pin "1"
-			(uuid "0db843c7-b235-4c59-8e79-fc3af6b3a7fc")
+			(uuid "0db843c7-b235-4c59-8e79-fc3af6b3a7fd")
 		)
 		(pin "2"
-			(uuid "7126955e-5f28-4f37-b7b5-403353d9cdbe")
+			(uuid "7126955e-5f28-4f37-b7b5-403353d9cdbf")
 		)
 		(pin "6"
-			(uuid "e4bdb68a-6ba5-429b-a99a-bb8e6ace2c5c")
+			(uuid "e4bdb68a-6ba5-429b-a99a-bb8e6ace2c5d")
 		)
 		(pin "3"
-			(uuid "8091e7ee-121c-4b41-bcdd-26bdc0d9f97f")
+			(uuid "8091e7ee-121c-4b41-bcdd-26bdc0d9f980")
 		)
 		(pin "4"
-			(uuid "5ab1be2d-612c-4ebb-b3ed-d6b88ebe8f21")
+			(uuid "5ab1be2d-612c-4ebb-b3ed-d6b88ebe8f22")
 		)
 		(instances
 			(project "Earphones_amp"
@@ -9606,7 +9606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 83.82 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10184,7 +10184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11969,7 +11969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 83.82 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12003,22 +12003,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ea210b3-8661-4296-8011-0df40026f8ca")
+			(uuid "8ea210b3-8661-4296-8011-0df40026f8cb")
 		)
 		(pin "5"
-			(uuid "b1ef17ab-540a-4dba-9c23-2249d88a1523")
+			(uuid "b1ef17ab-540a-4dba-9c23-2249d88a1524")
 		)
 		(pin "6"
-			(uuid "6c49bc51-f30b-40ed-b7b7-8bfd364a8e6d")
+			(uuid "6c49bc51-f30b-40ed-b7b7-8bfd364a8e6e")
 		)
 		(pin "3"
-			(uuid "f9864124-1733-484b-a2e2-8ea0222b3305")
+			(uuid "f9864124-1733-484b-a2e2-8ea0222b3306")
 		)
 		(pin "1"
-			(uuid "a42b9501-a0bd-4ca6-b1f3-13c3a1f88e52")
+			(uuid "a42b9501-a0bd-4ca6-b1f3-13c3a1f88e53")
 		)
 		(pin "4"
-			(uuid "0d8aabe0-5059-45ee-86de-0fa60da84570")
+			(uuid "0d8aabe0-5059-45ee-86de-0fa60da84571")
 		)
 		(instances
 			(project "Earphones_amp"
@@ -14694,7 +14694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 111.76 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15764,7 +15764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 111.76 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15798,22 +15798,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "3d8b5c5e-38fb-4248-9847-aa1fc3bf8574")
+			(uuid "3d8b5c5e-38fb-4248-9847-aa1fc3bf8575")
 		)
 		(pin "2"
-			(uuid "848471bc-6e15-46f0-9538-e8a38beb3f3b")
+			(uuid "848471bc-6e15-46f0-9538-e8a38beb3f3c")
 		)
 		(pin "1"
-			(uuid "70eee84e-61a5-4764-8f77-453355656bbe")
+			(uuid "70eee84e-61a5-4764-8f77-453355656bbf")
 		)
 		(pin "6"
-			(uuid "ab649366-59b1-4fe7-ac1b-a52c20814e91")
+			(uuid "ab649366-59b1-4fe7-ac1b-a52c20814e92")
 		)
 		(pin "5"
-			(uuid "bb6eab75-ce39-48e8-9a44-9e39831b2843")
+			(uuid "bb6eab75-ce39-48e8-9a44-9e39831b2844")
 		)
 		(pin "4"
-			(uuid "9d21b24a-297a-4cee-8897-a912ffcbb27c")
+			(uuid "9d21b24a-297a-4cee-8897-a912ffcbb27d")
 		)
 		(instances
 			(project "Earphones_amp"
@@ -16326,7 +16326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "samacsys:SL4515NB103L15CM"
+		(property "Footprint" "MyLibrary:SL4515G"
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16360,22 +16360,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "dc330354-e48c-452b-a42f-842231dfe26a")
+			(uuid "dc330354-e48c-452b-a42f-842231dfe26b")
 		)
 		(pin "1"
-			(uuid "74ec8722-fa2f-44e5-b548-29dda8d4929a")
+			(uuid "74ec8722-fa2f-44e5-b548-29dda8d4929b")
 		)
 		(pin "2"
-			(uuid "dafe52bf-537e-4da6-844e-63e950cda59f")
+			(uuid "dafe52bf-537e-4da6-844e-63e950cda5a0")
 		)
 		(pin "3"
-			(uuid "879ced26-5ddc-44a8-8825-035608f9679f")
+			(uuid "879ced26-5ddc-44a8-8825-035608f967a0")
 		)
 		(pin "6"
-			(uuid "91e150f1-d651-4829-9359-f79e0d968b3a")
+			(uuid "91e150f1-d651-4829-9359-f79e0d968b3b")
 		)
 		(pin "5"
-			(uuid "cf210e67-4b2e-40ea-8e1f-a1a452d1bfaf")
+			(uuid "cf210e67-4b2e-40ea-8e1f-a1a452d1bfb0")
 		)
 		(instances
 			(project "Earphones_amp"

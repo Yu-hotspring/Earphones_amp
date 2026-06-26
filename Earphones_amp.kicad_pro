@@ -69,8 +69,43 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|173584352|56002074|45024d40-d871-4644-a533-9dabf8dd1d47|4af24bd0-5d4f-4c58-a0d2-11278a8d3e31",
+          ""
+        ],
+        [
+          "courtyards_overlap|173630236|106827123|05f2b48f-0a52-4e01-9962-554ff6c558db|7b4bd561-05db-4221-aa76-b9ada959dc76",
+          ""
+        ],
+        [
+          "courtyards_overlap|196177252|113122683|0f6846f3-9348-40ad-b699-dc37b4cc699e|4c60e713-d1a4-45d9-9561-511c97bd4c37",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|175429352|57047074|8ae2f622-a5e9-4749-b531-45ad0c9c7cd7|4af24bd0-5d4f-4c58-a0d2-11278a8d3e31",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|175429352|62047074|6b21f804-4866-4f61-a14d-68413018e022|4af24bd0-5d4f-4c58-a0d2-11278a8d3e31",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|175475236|107872123|5bd059e1-5d65-43ab-8f10-483b657cae89|7b4bd561-05db-4221-aa76-b9ada959dc76",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|175475236|112872123|8b582562-1f09-44d2-9022-353c0a71ecab|7b4bd561-05db-4221-aa76-b9ada959dc76",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -156,7 +191,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,7 +238,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +269,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -649,7 +693,7 @@
         "uuid": "765fcb61-593e-45c6-b27e-3ac3b2a23a13"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1,C15-19",
     "variants": []
   },
   "sheets": [

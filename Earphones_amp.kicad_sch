@@ -8439,8 +8439,8 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
-			(at 60.96 41.148 0)
+		(property "Value" "LM358N"
+			(at 58.928 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14146,7 +14146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "LM358N"
 			(at 54.864 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16629,7 +16629,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "LM358N"
 			(at 29.21 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
